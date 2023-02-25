@@ -10,7 +10,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Minimize the value |(A\[0\] + ... + A\[P-1\]) - (A\[P\] + ... + A\[N-1\])|.
+Minimize the value (A\[0\] + ... + A\[P-1\]) - (A\[P\] + ... + A\[N-1\]).
 
 ##### Link
 

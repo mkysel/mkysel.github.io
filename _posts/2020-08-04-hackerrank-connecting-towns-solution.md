@@ -10,9 +10,9 @@ categories:
 
 ##### Short Problem Definition:
 
-Gandalf is travelling from **Rohan** to **Rivendell** to meet Frodo but there is no direct route from **Rohan** (T1) to **Rivendell** (Tn).
+Gandalf is travelling from **Rohan** to **Rivendell** to meet Frodo but there is no direct route from **Rohan** (T<sub>1</sub>) to **Rivendell** (T<sub>n</sub>).
 
-But there are towns T2,T3,T4...Tn-1 such that there are N1 routes from Town T1 to T2, and in general, Ni routes from Ti to Ti+1 for i=1 to n-1 and 0 routes for any other Ti to Tj for j ≠ i+1
+But there are towns T<sub>2</sub>,T<sub>3</sub>,T<sub>4</sub>...T<sub>n-1</sub> such that there are N<sub>i</sub> routes from Town T<sub>1</sub> to T<sub>2</sub>, and in general, N<sub>i</sub> routes from T<sub>i</sub> to T<sub>i+1</sub> for i=1 to n-1 and 0 routes for any other Ti to Tj for j ≠ i+1
 
 Find the total number of routes Gandalf can take to reach Rivendell from Rohan.
 
