@@ -17,9 +17,9 @@ You are given two strings, A and B. Find if there is a substring that appears in
 
 ##### Complexity:
 
-time complexity is O(N+M);
+time complexity is `O(N+M)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

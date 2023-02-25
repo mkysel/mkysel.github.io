@@ -17,9 +17,9 @@ Roy lives in a city that is circular in shape on a 2D plane that has radius r. T
 
 ##### Complexity:
 
-time complexity is O(sqrt(N))
+time complexity is `O(sqrt(N))`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

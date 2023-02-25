@@ -17,9 +17,9 @@ An English text needs to be encrypted using the following encryption scheme. Fir
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

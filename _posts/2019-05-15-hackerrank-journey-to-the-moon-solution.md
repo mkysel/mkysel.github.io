@@ -17,9 +17,9 @@ The member states of the UN are planning to send _2_ people to the moon. They wa
 
 ##### Complexity:
 
-time complexity is O(a(N))
+time complexity is `O(a(N))`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

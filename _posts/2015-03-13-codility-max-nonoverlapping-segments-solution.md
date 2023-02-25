@@ -17,9 +17,9 @@ Find a maximal set of non((-))overlapping segments.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N)
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

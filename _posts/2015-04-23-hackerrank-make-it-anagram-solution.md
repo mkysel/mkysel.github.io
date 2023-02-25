@@ -21,9 +21,9 @@ Given two strings (they can be of same or different length) help her in finding 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

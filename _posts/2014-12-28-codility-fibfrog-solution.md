@@ -17,9 +17,9 @@ Count the minimum number of jumps required for a frog to get to the other side o
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N))
+expected worst-case time complexity is `O(N\*log(N))`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

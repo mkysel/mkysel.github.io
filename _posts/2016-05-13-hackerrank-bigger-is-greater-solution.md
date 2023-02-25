@@ -19,9 +19,9 @@ Given a word w, rearrange the letters of w to construct another word in such a w
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

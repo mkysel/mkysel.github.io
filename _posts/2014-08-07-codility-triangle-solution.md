@@ -17,9 +17,9 @@ Determine whether a triangle can be built from a given set of edges.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N));
+expected worst-case time complexity is `O(N\*log(N))`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

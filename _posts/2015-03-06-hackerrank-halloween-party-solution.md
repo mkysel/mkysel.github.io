@@ -17,9 +17,9 @@ Alex is attending a Halloween party with his girlfriend Silvia. At the party, Si
 
 ##### Complexity:
 
-time complexity is O(1);
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

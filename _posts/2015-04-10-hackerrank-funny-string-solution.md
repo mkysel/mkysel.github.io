@@ -17,9 +17,9 @@ Suppose you have a string S which has length N and is indexed from 0 to N−1. S
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -20,9 +20,9 @@ Each client can buy _at most_ one house, and each house can have _at most_ one o
 
 ##### Complexity:
 
-time complexity is O(NlogN + MlogM + N\*M)
+time complexity is `O(NlogN + MlogM + N\*M)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ Find the maximal sum of any double slice.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

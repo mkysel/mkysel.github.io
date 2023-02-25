@@ -19,9 +19,9 @@ A _prime_ is a natural number _greater than_ 1 that has no positive divisors oth
 
 ##### Complexity:
 
-time complexity is O(sqrt(N))
+time complexity is `O(sqrt(N))`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ Count the number of passing cars on the road.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

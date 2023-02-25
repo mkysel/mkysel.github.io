@@ -19,9 +19,9 @@ We say that a string contains the word `hackerrank` if a [subsequence](https://e
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

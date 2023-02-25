@@ -17,9 +17,9 @@ Count the number of triangles that can be built from a given set of edges.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N2);
+expected worst-case time complexity is `O(N2)`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

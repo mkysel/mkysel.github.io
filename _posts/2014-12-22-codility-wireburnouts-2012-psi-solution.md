@@ -17,9 +17,9 @@ While removing edges from a mesh grid, find the moment when there ceases to be a
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N2\*log(N));
+expected worst-case time complexity is `O(N2\*log(N))`
 
-expected worst-case space complexity is O(N2)
+expected worst-case space complexity is `O(N2)`
 
 ##### Execution:
 

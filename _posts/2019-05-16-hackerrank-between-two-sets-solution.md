@@ -20,9 +20,9 @@ You will be given two arrays of integers and asked to determine all integers tha
 
 ##### Complexity:
 
-time complexity is O(A\* (N+M))
+time complexity is `O(A\* (N+M))`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

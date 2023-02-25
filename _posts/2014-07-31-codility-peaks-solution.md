@@ -17,9 +17,9 @@ A non-empty zero-indexed array A consisting of N integers is given. A peak is an
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(log(N)));
+expected worst-case time complexity is `O(N\*log(log(N)))`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

@@ -19,9 +19,9 @@ Given the list of N rocks with their compositions, display the number of gem-ele
 
 ##### Complexity:
 
-time complexity is O(N\*T)
+time complexity is `O(N\*T)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

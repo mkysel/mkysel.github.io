@@ -22,9 +22,9 @@ Amanda has a string of lowercase letters that she wants to copy to a new string.
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

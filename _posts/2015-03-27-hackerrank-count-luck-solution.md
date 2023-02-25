@@ -17,9 +17,9 @@ Hermione Granger is lost in the Forbidden Forest while collecting some herbs for
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

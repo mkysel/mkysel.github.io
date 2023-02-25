@@ -18,9 +18,9 @@ Given an array of integers, find the sum of its elements.
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

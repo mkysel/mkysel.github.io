@@ -17,9 +17,9 @@ Count the number of distinct slices (containing only unique numbers).
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(M)
+expected worst-case space complexity is `O(M)`
 
 ##### Execution:
 

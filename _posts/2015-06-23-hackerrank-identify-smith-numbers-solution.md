@@ -17,9 +17,9 @@ A Smith number is a composite number, the sum of whose digits is the sum of the 
 
 ##### Complexity:
 
-time complexity is O(sqrt(N))
+time complexity is `O(sqrt(N))`
 
-space complexity is O(sqrt(N))
+space complexity is `O(sqrt(N))`
 
 ##### Execution:
 

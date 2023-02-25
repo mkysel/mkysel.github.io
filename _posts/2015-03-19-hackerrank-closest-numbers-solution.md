@@ -17,9 +17,9 @@ Given a list of unsorted integers, A={a1,a2,…,aN}, can you find the pair of el
 
 ##### Complexity:
 
-time complexity is O(n\*log(n)) // sorting
+time complexity is `O(n\*log(n)) // sorting`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

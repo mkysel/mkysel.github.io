@@ -17,9 +17,9 @@ That's the value of pi! (Ignoring the floating point) A song is a _pi song_ if t
 
 ##### Complexity:
 
-time complexity is O(N\*T)
+time complexity is `O(N\*T)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

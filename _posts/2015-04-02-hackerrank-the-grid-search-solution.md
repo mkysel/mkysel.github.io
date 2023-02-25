@@ -17,9 +17,9 @@ Given a 2D array of digits, try to find the location of a given 2D pattern of di
 
 ##### Complexity:
 
-time complexity is O(n^2 \* m^2)
+time complexity is `O(n^2 \* m^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

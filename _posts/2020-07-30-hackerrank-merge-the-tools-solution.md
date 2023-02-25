@@ -17,9 +17,9 @@ Split the string S into chunks T. Remove duplicates from T.
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

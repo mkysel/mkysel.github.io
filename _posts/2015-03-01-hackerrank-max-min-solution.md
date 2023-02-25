@@ -18,9 +18,9 @@ Given a list of N integers, your task is to select K integers from the list such
 
 ##### Complexity:
 
-time complexity is O(N\*log(N));
+time complexity is `O(N\*log(N))`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

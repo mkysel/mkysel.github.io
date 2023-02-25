@@ -27,9 +27,9 @@ For example, s = OneTwoThree . There are 3 words in the string.
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

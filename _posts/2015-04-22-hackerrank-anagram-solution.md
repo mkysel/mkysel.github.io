@@ -17,9 +17,9 @@ Sid is obsessed with reading short stories. Being a CS student, he is doing some
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

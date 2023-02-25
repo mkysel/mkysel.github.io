@@ -21,9 +21,9 @@ Shortly after resolving to investigate, Sherlock receives a note from Moriarty b
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

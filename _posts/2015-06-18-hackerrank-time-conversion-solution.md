@@ -18,9 +18,9 @@ You are given time in AM/PM format. Convert this into a 24 hour format.
 
 ##### Complexity:
 
-time complexity is O(?)
+time complexity is `O(?)`
 
-space complexity is O(?)
+space complexity is `O(?)`
 
 ##### Execution:
 

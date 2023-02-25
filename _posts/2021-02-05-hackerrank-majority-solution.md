@@ -22,9 +22,9 @@ Neo being blind won't be able to see the balls let alone figure out the ball wit
 
 ##### Complexity:
 
-time complexity is O(N^2)
+time complexity is `O(N^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Requested By:
 

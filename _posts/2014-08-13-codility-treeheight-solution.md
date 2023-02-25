@@ -17,9 +17,9 @@ Compute the height of a binary link-tree.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

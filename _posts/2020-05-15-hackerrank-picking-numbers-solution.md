@@ -17,9 +17,9 @@ Given an array of integers, find and print the maximum number of integers you ca
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

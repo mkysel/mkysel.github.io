@@ -17,9 +17,9 @@ Simulate a cannon shooting and heaps of falling cannonballs
 
 ##### Complexity:
 
-expected worst-case time complexity is O(H+M+N)
+expected worst-case time complexity is `O(H+M+N)`
 
-expected worst-case space complexity is O(H+M)
+expected worst-case space complexity is `O(H+M)`
 
 ##### Execution:
 

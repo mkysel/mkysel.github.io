@@ -19,9 +19,9 @@ Tell Adam whether he can reach or not.
 
 ##### Complexity:
 
-time complexity is O(log(N))
+time complexity is `O(log(N))`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ You are given a square map of size n×n. Each cell of the map has a value denoti
 
 ##### Complexity:
 
-time complexity is O(N^2)
+time complexity is `O(N^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

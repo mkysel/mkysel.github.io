@@ -17,9 +17,9 @@ Roy wanted to increase his typing speed for programming contests. So, his friend
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

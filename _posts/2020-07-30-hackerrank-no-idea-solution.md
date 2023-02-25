@@ -17,9 +17,9 @@ There is an array of integers. There are also **2** **disjoint sets**, A and ,B 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

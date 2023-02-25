@@ -17,9 +17,9 @@ Sherlock is stuck while solving a problem: Given an array A={a1,a2,..aN}, he wan
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

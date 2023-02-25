@@ -19,9 +19,9 @@ If ki is the number of elements over which the ith element of the array has to s
 
 ##### Complexity:
 
-time complexity is O(N\*log(N))
+time complexity is `O(N\*log(N))`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

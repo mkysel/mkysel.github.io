@@ -23,9 +23,9 @@ Number Line Jumps
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

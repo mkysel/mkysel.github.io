@@ -17,9 +17,9 @@ Find the earliest time when a frog can jump to the other side of a river.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(X)
+expected worst-case space complexity is `O(X)`
 
 ##### Execution:
 

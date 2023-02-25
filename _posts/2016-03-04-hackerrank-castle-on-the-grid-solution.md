@@ -23,9 +23,9 @@ It is guaranteed that it is possible to reach the goal position from the initial
 
 ##### Complexity:
 
-time complexity is O(N^2) or O(N^3)
+time complexity is `O(N^2) or O(N^3)`
 
-space complexity is O(N^2)
+space complexity is `O(N^2)`
 
 ##### Execution:
 

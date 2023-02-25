@@ -19,9 +19,9 @@ Sami's spaceship crashed on Mars! She sends a series of `SOS` messages to Earth 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

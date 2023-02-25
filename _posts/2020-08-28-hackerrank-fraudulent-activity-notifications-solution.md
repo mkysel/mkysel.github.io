@@ -18,9 +18,9 @@ HackerLand National Bank has a simple policy for warning clients about possible 
 
 ##### Complexity:
 
-time complexity is O(N^2)
+time complexity is `O(N^2)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

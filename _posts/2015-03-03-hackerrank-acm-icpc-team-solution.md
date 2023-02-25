@@ -18,9 +18,9 @@ You are given a list of N people who are attending ACM-ICPC World Finals. Each o
 
 ##### Complexity:
 
-time complexity is O(N^3);
+time complexity is `O(N^3)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

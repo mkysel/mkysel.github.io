@@ -20,9 +20,9 @@ Calculate and print the sum of the elements in an array, keeping in mind that so
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

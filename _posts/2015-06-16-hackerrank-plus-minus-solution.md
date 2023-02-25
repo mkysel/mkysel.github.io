@@ -18,9 +18,9 @@ You're given an array containing integer values. You need to print the fraction 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

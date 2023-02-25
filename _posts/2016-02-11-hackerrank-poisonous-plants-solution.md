@@ -17,9 +17,9 @@ There are NN plants in a garden. Each of these plants has been added with some a
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

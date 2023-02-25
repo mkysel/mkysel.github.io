@@ -17,9 +17,9 @@ Divide array A into K blocks and minimize the largest sum of any block.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N+M));
+expected worst-case time complexity is `O(N\*log(N+M))`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

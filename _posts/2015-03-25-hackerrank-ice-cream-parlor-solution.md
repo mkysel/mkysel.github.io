@@ -19,9 +19,9 @@ You are given the cost of these flavors. The cost of the _i_th flavor is denoted
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

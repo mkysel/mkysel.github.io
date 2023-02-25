@@ -17,9 +17,9 @@ Find the minimal perimeter of any rectangle whose area equals N.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(sqrt(N));
+expected worst-case time complexity is `O(sqrt(N))`
 
-expected worst-case space complexity is O(1).
+expected worst-case space complexity is `O(1).`
 
 ##### Execution:
 

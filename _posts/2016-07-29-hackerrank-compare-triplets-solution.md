@@ -17,9 +17,9 @@ Alice and Bob each created one problem for HackerRank. A reviewer rates the two 
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -25,9 +25,9 @@ She typed a random string of length n in the password field but wasn't sure if i
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ Tie adjacent ropes to achieve the maximum number of ropes of length >= K.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

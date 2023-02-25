@@ -17,9 +17,9 @@ Sam's house has an apple tree and an orange tree that yield an abundance of frui
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

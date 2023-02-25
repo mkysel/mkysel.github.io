@@ -17,9 +17,9 @@ You are given a string and your task is to _swap cases_. In other words, convert
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

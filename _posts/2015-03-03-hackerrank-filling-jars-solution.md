@@ -18,9 +18,9 @@ Animesh has _N_ empty candy jars, numbered from 1 to _N_, with infinite capacity
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

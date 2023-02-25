@@ -17,9 +17,9 @@ At the annual meeting of Board of Directors of Acme Inc, every one starts shakin
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

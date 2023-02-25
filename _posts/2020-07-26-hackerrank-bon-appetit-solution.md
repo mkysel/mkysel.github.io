@@ -17,9 +17,9 @@ Anna and Brian are sharing a meal at a restaurant and they agree to split the bi
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

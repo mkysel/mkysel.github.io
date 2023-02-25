@@ -17,9 +17,9 @@ Maximize A\[P\] \* A\[Q\] \* A\[R\] for any triplet (P, Q, R).
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N));
+expected worst-case time complexity is `O(N\*log(N))`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

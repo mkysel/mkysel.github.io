@@ -20,9 +20,9 @@ Given a set _S_ of _n_ distinct integers, print the size of a maximal subset _S'
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

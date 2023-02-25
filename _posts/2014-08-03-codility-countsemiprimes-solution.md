@@ -17,9 +17,9 @@ Count the semiprime numbers in the given range \[a..b\]
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(log(N))+M);
+expected worst-case time complexity is `O(N\*log(log(N))+M)`
 
-expected worst-case space complexity is O(N+M)
+expected worst-case space complexity is `O(N+M)`
 
 ##### Execution:
 

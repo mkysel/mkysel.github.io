@@ -19,9 +19,9 @@ John works at a clothing store. He has a large pile of socks that he must pair b
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

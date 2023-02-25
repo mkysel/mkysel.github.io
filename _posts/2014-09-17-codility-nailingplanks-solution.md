@@ -17,9 +17,9 @@ Count the minimum number of nails that allow a series of planks to be nailed..
 
 ##### Complexity:
 
-expected worst-case time complexity is O((N+M)\*log(M));
+expected worst-case time complexity is `O((N+M)\*log(M))`
 
-expected worst-case space complexity is O(M)
+expected worst-case space complexity is `O(M)`
 
 ##### Execution:
 

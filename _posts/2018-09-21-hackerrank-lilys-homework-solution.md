@@ -21,9 +21,9 @@ Consider an array of m distinct integers, arr = \[a\[0\], a\[1\], ..., a\[n-1\]\
 
 ##### Complexity:
 
-time complexity is O(N\*log(N))
+time complexity is `O(N\*log(N))`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

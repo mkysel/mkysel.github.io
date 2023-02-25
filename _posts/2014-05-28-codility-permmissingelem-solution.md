@@ -17,9 +17,9 @@ Find the missing element in a given permutation.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

@@ -19,9 +19,9 @@ A jail has N prisoners, and each prisoner has a unique id number,S , ranging fro
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

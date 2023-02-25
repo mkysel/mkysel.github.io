@@ -17,9 +17,9 @@ Count factors of given number N.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(sqrt(N));
+expected worst-case time complexity is `O(sqrt(N))`
 
-expected worst-case space complexity is O(1).
+expected worst-case space complexity is `O(1).`
 
 ##### Execution:
 

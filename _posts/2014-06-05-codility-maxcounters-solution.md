@@ -17,9 +17,9 @@ Calculate the values of counters after applying all alternating operations: incr
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N+M);
+expected worst-case time complexity is `O(N+M)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

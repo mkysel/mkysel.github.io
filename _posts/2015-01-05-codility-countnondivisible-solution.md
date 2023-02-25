@@ -17,9 +17,9 @@ Calculate the number of elements of an array that are not divisors of each eleme
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N));
+expected worst-case time complexity is `O(N\*log(N))`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

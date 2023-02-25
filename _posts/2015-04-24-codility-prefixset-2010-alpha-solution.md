@@ -17,9 +17,9 @@ Given a table A of N integers from 0 to N-1 calculate the smallest such index P,
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N)
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

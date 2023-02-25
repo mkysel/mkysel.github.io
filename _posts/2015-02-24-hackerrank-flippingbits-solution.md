@@ -17,9 +17,9 @@ You will be given a list of 32 bits unsigned integers. You are required to outpu
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

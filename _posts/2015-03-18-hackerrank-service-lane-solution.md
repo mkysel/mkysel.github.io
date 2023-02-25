@@ -17,9 +17,9 @@ Calvin is driving his favorite vehicle on the 101 freeway. He notices that the c
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

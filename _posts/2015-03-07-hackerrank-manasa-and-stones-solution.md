@@ -17,9 +17,9 @@ Manasa is out on a hike with friends. She finds a trail of stones with numbers o
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

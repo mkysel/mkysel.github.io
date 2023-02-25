@@ -19,9 +19,9 @@ You are in charge of the cake for your niece's birthday and have decided the cak
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

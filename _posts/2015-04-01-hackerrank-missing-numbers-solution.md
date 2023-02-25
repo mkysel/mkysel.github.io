@@ -17,9 +17,9 @@ Numeros, the Artist, had two lists A and B, such that B was a permutation of A. 
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

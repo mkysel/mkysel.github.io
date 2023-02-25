@@ -19,9 +19,9 @@ You are given an array of n integers and a positive integer, k. Find and print t
 
 ##### Complexity:
 
-time complexity is O(N^2)
+time complexity is `O(N^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

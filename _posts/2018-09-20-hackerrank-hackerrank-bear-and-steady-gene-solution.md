@@ -19,9 +19,9 @@ A gene is represented as a string of length N (where is divisible by 4), compose
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

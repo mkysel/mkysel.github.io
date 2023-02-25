@@ -17,9 +17,9 @@ Shashank loves to play with arrays a lot. Today, he has an array A consisting of
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

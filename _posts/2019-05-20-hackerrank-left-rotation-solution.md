@@ -17,9 +17,9 @@ A _left rotation_ operation on an array shifts each of the array's elements _1_ 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

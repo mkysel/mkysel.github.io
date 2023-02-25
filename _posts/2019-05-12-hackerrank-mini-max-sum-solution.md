@@ -19,9 +19,9 @@ Given five positive integers, find the minimum and maximum values that can be ca
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

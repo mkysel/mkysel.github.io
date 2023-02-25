@@ -17,9 +17,9 @@ Two cats and a mouse are at various positions on a line. You will be given their
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

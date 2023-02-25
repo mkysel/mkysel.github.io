@@ -17,9 +17,9 @@ Taum is planning to celebrate the birthday of his friend Diksha. There are two t
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

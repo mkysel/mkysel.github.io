@@ -17,9 +17,9 @@ Compute number of inversion in an array.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N));
+expected worst-case time complexity is `O(N\*log(N))`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

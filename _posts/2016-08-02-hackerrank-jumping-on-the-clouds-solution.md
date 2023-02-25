@@ -19,9 +19,9 @@ Emma is playing a new mobile game involving clouds numbered from 1 to n. There a
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

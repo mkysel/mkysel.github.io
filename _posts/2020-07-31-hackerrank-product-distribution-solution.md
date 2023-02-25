@@ -17,9 +17,9 @@ A company has requested to streamline their product allocation strategy, and giv
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

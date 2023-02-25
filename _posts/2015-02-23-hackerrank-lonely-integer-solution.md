@@ -17,9 +17,9 @@ There are _N_ integers in an array _A_. All but one integer occur in pairs. Your
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

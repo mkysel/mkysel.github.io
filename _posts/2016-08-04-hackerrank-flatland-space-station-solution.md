@@ -19,9 +19,9 @@ For each city, determine its distance to the _nearest_ space station and _print 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

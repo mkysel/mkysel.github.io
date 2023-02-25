@@ -17,9 +17,9 @@ You are given a string of lower case letters. Your task is to figure out the ind
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

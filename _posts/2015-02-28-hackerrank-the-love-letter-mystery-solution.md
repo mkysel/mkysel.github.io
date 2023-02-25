@@ -18,9 +18,9 @@ James found a love letter his friend Harry has written for his girlfriend. James
 
 ##### Complexity:
 
-time complexity is O(N\*T);
+time complexity is `O(N\*T)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

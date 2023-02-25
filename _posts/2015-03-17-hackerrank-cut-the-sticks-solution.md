@@ -17,9 +17,9 @@ You are given N sticks, where each stick has the length of a positive integer. A
 
 ##### Complexity:
 
-time complexity is O(n\*log(n))
+time complexity is `O(n\*log(n))`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

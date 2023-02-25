@@ -17,9 +17,9 @@ You are given an integer, N. Write a program to determine if N is an element of 
 
 ##### Complexity:
 
-time complexity is O(15√(ϕn−(−ϕ)−n))
+time complexity is `O(15√(ϕn−(−ϕ)−n))`
 
-space complexity is O(15√(ϕn−(−ϕ)−n))
+space complexity is `O(15√(ϕn−(−ϕ)−n))`
 
 ##### Execution:
 

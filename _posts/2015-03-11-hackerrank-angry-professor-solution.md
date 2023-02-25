@@ -19,9 +19,9 @@ Given the arrival time of each student, your task is to find out if the class ge
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

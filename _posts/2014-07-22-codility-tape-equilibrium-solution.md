@@ -18,9 +18,9 @@ Minimize the value |(A\[0\] + ... + A\[P-1\]) - (A\[P\] + ... + A\[N-1\])|.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

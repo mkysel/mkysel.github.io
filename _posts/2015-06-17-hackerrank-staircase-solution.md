@@ -18,9 +18,9 @@ Your teacher has given you the task to draw the structure of a staircase. Being 
 
 ##### Complexity:
 
-time complexity is O(N^2)
+time complexity is `O(N^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

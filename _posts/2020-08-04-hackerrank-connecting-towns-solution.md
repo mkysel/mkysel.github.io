@@ -22,9 +22,9 @@ Find the total number of routes Gandalf can take to reach Rivendell from Rohan.
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

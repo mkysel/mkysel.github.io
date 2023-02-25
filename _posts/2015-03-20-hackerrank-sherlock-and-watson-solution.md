@@ -19,9 +19,9 @@ He performs the operation K times and tests Sherlock's ability to identify the e
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

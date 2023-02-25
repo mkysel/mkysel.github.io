@@ -17,9 +17,9 @@ Find the index S such that the leaders of the sequences A\[0\], A\[1\], ..., A\[
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

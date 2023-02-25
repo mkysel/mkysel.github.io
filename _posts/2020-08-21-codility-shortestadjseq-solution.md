@@ -26,9 +26,9 @@ A non-empty zero-indexed sequence B consisting of M integers is called _adjacent
 
 ##### Complexity:
 
-time complexity is O(NlogN)
+time complexity is `O(NlogN)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

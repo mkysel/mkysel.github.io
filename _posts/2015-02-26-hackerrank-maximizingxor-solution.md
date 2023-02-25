@@ -19,9 +19,9 @@ Given two integers, _L_ and _R_, find the maximal values of _A_ xor _B_, where A
 
 ##### Complexity:
 
-time complexity is O(N^2);
+time complexity is `O(N^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

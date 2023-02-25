@@ -17,9 +17,9 @@ The Head Librarian at a library wants you to make a program that calculates the 
 
 ##### Complexity:
 
-time complexity is O(?)
+time complexity is `O(?)`
 
-space complexity is O(?)
+space complexity is `O(?)`
 
 ##### Execution:
 

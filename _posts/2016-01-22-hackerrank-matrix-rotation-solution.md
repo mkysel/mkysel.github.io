@@ -17,9 +17,9 @@ You are given a 2D matrix, _a_, of dimension _MxN_ and a positive integer _R_. Y
 
 ##### Complexity:
 
-time complexity is O(N×M)
+time complexity is `O(N×M)`
 
-space complexity is O(NxM)
+space complexity is `O(NxM)`
 
 ##### Execution:
 

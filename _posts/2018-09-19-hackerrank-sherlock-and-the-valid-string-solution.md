@@ -19,9 +19,9 @@ Sherlock considers a string to be _valid_ if all characters of the string appear
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

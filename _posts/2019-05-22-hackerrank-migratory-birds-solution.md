@@ -17,9 +17,9 @@ You have been asked to help study the population of birds migrating across the c
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

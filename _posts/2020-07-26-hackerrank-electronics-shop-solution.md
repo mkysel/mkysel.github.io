@@ -19,9 +19,9 @@ Given the price lists for the store's keyboards and USB drives, and Monica's bud
 
 ##### Complexity:
 
-time complexity is O(N\*M)
+time complexity is `O(N\*M)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ There are N chocolates in a circle. Count the number of chocolates you will eat.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(log(N+M));
+expected worst-case time complexity is `O(log(N+M))`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

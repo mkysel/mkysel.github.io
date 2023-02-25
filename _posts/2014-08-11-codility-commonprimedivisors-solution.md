@@ -17,9 +17,9 @@ Check whether two numbers have the same prime divisors.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(Z\*log(max(A)+max(B))2);
+expected worst-case time complexity is `O(Z\*log(max(A)+max(B))2)`
 
-expected worst-case space complexity is O(1)
+expected worst-case space complexity is `O(1)`
 
 ##### Execution:
 

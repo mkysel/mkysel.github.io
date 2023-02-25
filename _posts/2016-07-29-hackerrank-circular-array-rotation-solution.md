@@ -17,9 +17,9 @@ John Watson performs an operation called a _right circular rotation_ on an array
 
 ##### Complexity:
 
-time complexity is O(Q)
+time complexity is `O(Q)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ Count minimal number of jumps from position X to Y.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(1);
+expected worst-case time complexity is `O(1)`
 
-expected worst-case space complexity is O(1).
+expected worst-case space complexity is `O(1).`
 
 ##### Execution:
 

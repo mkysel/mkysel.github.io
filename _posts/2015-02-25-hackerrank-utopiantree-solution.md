@@ -17,9 +17,9 @@ The Utopian Tree goes through 2 cycles of growth every year. The first growth cy
 
 ##### Complexity:
 
-time complexity is O(N + max(N));
+time complexity is `O(N + max(N))`
 
-space complexity is O(max(N))
+space complexity is `O(max(N))`
 
 ##### Execution:
 

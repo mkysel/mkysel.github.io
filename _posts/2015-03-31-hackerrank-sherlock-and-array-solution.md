@@ -17,9 +17,9 @@ Watson gives Sherlock an array A of length N. Then he asks him to determine if t
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

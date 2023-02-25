@@ -19,9 +19,9 @@ Your task is to find the minimum number of required deletions.
 
 ##### Complexity:
 
-time complexity is O(N\*T);
+time complexity is `O(N\*T)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

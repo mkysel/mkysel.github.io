@@ -21,9 +21,9 @@ Steve’s task is to delete as many characters as possible using this method and
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ Given N integers, count the number of pairs of integers whose difference is K.
 
 ##### Complexity:
 
-time complexity is O(N\*log(N))
+time complexity is `O(N\*log(N))`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

@@ -17,9 +17,9 @@ Count the number of different ways of climbing to the top of a ladder.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(L)
+expected worst-case time complexity is `O(L)`
 
-expected worst-case space complexity is O(L)
+expected worst-case space complexity is ``O(L)``
 
 ##### Execution:
 

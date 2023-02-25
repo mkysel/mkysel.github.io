@@ -21,9 +21,9 @@ For example, if X = 13 and N = 2, we have to find all combinations of unique squ
 
 ##### Complexity:
 
-time complexity is O(N!)
+time complexity is `O(N!)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

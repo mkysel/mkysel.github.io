@@ -17,9 +17,9 @@ Brie’s Drawing teacher asks her class to open their books to a page number. Br
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is `O(1)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

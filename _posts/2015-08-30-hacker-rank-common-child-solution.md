@@ -19,9 +19,9 @@ A string x is said to be a child of a string y if x can be formed by deleting 0 
 
 ##### Complexity:
 
-time complexity is O(N\*M)
+time complexity is `O(N\*M)`
 
-space complexity is O(N\*M)
+space complexity is `O(N\*M)`
 
 ##### Execution:
 

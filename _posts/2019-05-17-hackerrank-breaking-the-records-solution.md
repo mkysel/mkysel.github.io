@@ -17,9 +17,9 @@ Maria plays college basketball and wants to go pro. Each season she maintains a 
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

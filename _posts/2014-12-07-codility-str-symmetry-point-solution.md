@@ -17,9 +17,9 @@ Find a symmetry point of a string, if any.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(length(S));
+expected worst-case time complexity is `O(length(S))`
 
-expected worst-case space complexity is O(1) (not counting the storage required for input arguments).
+expected worst-case space complexity is `O(1)` (not counting the storage required for input arguments).
 
 ##### Execution:
 

@@ -23,9 +23,9 @@ Fascinated by this chaotic queue, you decide you must know the minimum number of
 
 ##### Complexity:
 
-time complexity is O(N^2)
+time complexity is `O(N^2)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

@@ -18,9 +18,9 @@ The population of HackerWorld is 10^9. Initially, none of the people are friends
 
 ##### Complexity:
 
-time complexity is O(n(logq+logn))
+time complexity is `O(n(logq+logn))`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

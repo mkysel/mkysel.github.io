@@ -17,9 +17,9 @@ Find a longest slice of a binary array that can be split into two parts: in the 
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N)
+expected worst-case time complexity is `O(N)`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 

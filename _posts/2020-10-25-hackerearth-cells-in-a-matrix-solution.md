@@ -19,9 +19,9 @@ You have to perform each task sequentially in the given order. Each task is desc
 
 ##### Complexity:
 
-time complexity is O(K\*log(N))
+time complexity is `O(K\*log(N))`
 
-space complexity is O(N)
+space complexity is `O(N)`
 
 ##### Execution:
 

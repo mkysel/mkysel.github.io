@@ -17,9 +17,9 @@ Julius Caesar protected his confidential information from his enemies by encrypt
 
 ##### Complexity:
 
-time complexity is O(?)
+time complexity is `O(?)`
 
-space complexity is O(?)
+space complexity is `O(?)`
 
 ##### Execution:
 

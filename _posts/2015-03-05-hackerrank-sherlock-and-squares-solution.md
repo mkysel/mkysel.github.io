@@ -19,9 +19,9 @@ A square integer is an integer which is the square of any integer. For example, 
 
 ##### Complexity:
 
-time complexity is O(sqrt(N));
+time complexity is `O(sqrt(N))`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

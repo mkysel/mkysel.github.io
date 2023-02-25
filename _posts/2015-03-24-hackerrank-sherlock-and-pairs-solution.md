@@ -19,9 +19,9 @@ That is, Sherlock has to count total number of pairs of indices (i, j) where Ai 
 
 ##### Complexity:
 
-time complexity is O(n)
+time complexity is `O(n)`
 
-space complexity is O(n)
+space complexity is `O(n)`
 
 ##### Execution:
 

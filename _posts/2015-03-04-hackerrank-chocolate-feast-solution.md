@@ -17,9 +17,9 @@ Little Bob loves chocolates, and goes to a store with $N in his pocket. The pric
 
 ##### Complexity:
 
-time complexity is O(N);
+time complexity is `O(N)`
 
-space complexity is O(1)
+space complexity is `O(1)`
 
 ##### Execution:
 

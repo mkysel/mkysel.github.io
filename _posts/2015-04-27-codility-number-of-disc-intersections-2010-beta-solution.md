@@ -19,9 +19,9 @@ Given an array A of N integers, we draw N discs in a 2D plane such that the I-th
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(N))
+expected worst-case time complexity is `O(N\*log(N))`
 
-expected worst-case space complexity is O(N)
+expected worst-case space complexity is `O(N)`
 
 ##### Execution:
 
