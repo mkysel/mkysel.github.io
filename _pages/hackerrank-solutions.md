@@ -1,6 +1,8 @@
 ---
+layout: page
 title: "HackerRank Solutions"
 date: "2015-02-24"
+permalink: /hackerrank-solutions/
 ---
 
 Over the course of the next few (actually many) days, I will be posting the solutions to previous Hacker Rank challenges. The page is a good start for people to solve these problems as the time constraints are rather forgiving. The majority of the solutions are in Python 2. Some are in C++, [Rust](https://www.rust-lang.org/en-US/) and [GoLang](https://golang.org/).

@@ -1,6 +1,8 @@
 ---
+layout: page
 title: "Codility Solutions"
 date: "2014-08-01"
+permalink: /codility-solutions/
 ---
 
 On this page I am sharing my solutions to the codility.com problem sets. They can be found [here](https://codility.com/programmers/lessons/ "Codility Lessons"). Enjoy and share your comments!
