@@ -5,9 +5,12 @@ categories:
   - "coding-challenge"
   - "hackerrank"
   - "python"
+excerpt: The population of HackerWorld is 10^9. Initially, none of the people are friends with each other. In order to start a friendship, two persons a and b have to shake hands, where `1 <= a,b <= 10^9`. The friendship relation is transitive, that is if a and b shake hands with each other, a and friends of a become friends with b and friends of b.
 ---
 
 ##### Short Problem Definition:
+
+The population of HackerWorld is 10^9. Initially, none of the people are friends with each other. In order to start a friendship, two persons a and b have to shake hands, where `1 <= a,b <= 10^9`. The friendship relation is transitive, that is if a and b shake hands with each other, a and friends of a become friends with b and friends of b.
 
 ##### Link
 

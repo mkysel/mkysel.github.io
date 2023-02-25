@@ -5,6 +5,7 @@ categories:
   - "coding-challenge"
   - "hackerrank"
   - "python"
+excerpt: Neo has to save the world one last time. One of the battles has cost Neo his eyes. He has to fight the battle with the Deus ex machina.
 ---
 
 ##### Short Problem Definition:

@@ -5,6 +5,7 @@ categories:
   - "coding-challenge"
   - "hackerrank"
   - "python"
+excerpt: Consider a string, s, consisting only of the letters `a` and `b`. We say that string s is balanced if both of the following conditions are satisfied...
 ---
 
 ##### Short Problem Definition:

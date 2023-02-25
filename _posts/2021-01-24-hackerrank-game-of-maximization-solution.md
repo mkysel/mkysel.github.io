@@ -6,6 +6,7 @@ categories:
   - "hackerrank"
   - "hackerrank-hackfest-2020"
   - "python"
+excerpt: There are n piles of stones, where the ith pile has ai stones. You need to collect the maximum number of stones from these piles
 ---
 
 ##### Short Problem Definition:
