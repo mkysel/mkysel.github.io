@@ -28,7 +28,7 @@ There are many sophisticated 2d pattern matching algorithms out there. Just thin
 SubArray-Check reduction techniques:
 
 - keep the sum of the sub-array in a separate grid, check only if sum matches the pattern
-- Rabin-Karp string searching algorithm on each line to fast forward
+- Rabin-Karp string searching algorithm on each line to fast forward
 
 ##### Solution:
 

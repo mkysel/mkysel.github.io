@@ -23,7 +23,7 @@ space complexity is O(1)
 
 ##### Execution:
 
-You do not actually need to construct all the sub-arrays, as they reduce to only one element. You also can ignore all sub-arrays, that do not contain elements E > K. I also observed that there are x\*y sub-arrays that match the above specified criteria for each element E > K. X is the distance from E to any previous e > K. Y is the distance from E to the end of the array. This way you crate all the sub-arrays that contain E and are not part of another e.
+You do not actually need to construct all the sub-arrays, as they reduce to only one element. You also can ignore all sub-arrays, that do not contain elements E > K. I also observed that there are x\*y sub-arrays that match the above specified criteria for each element E > K. X is the distance from E to any previous e > K. Y is the distance from E to the end of the array. This way you crate all the sub-arrays that contain E and are not part of another e.
 
 ##### Solution:
 

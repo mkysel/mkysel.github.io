@@ -24,17 +24,17 @@ Now, what is this virtual table? It’s worth remembering that a vtable is known
 
 > When working with virtual functions in C++, it’s the vtable that’s being used behind the scenes to help achieve polymorphism. And, although you can understand polymorphism without understanding vtables, many interviewers like to ask this question just to see if you really know your stuff…
 
-I strongly disagree with the quote. My understanding has only brought me so far and I am not even interviewing. We already understand polymorphism. Next, let us understand vtables.
+I strongly disagree with the quote. My understanding has only brought me so far and I am not even interviewing. We already understand polymorphism. Next, let us understand vtables.
 
-> Whenever a class itself _contains virtual functions or overrides virtual functions from a parent class_ the compiler builds a vtable for that class. This means that _not all classes have a vtable_ created for them by the compiler. The vtable contains function pointers that point to the virtual functions in that class. There can only be one vtable per class, and all objects of the same class will share the same vtable. [\[1\]](http://www.programmerinterview.com/index.php/c-cplusplus/how-vtables-work/)
+> Whenever a class itself _contains virtual functions or overrides virtual functions from a parent class_ the compiler builds a vtable for that class. This means that _not all classes have a vtable_ created for them by the compiler. The vtable contains function pointers that point to the virtual functions in that class. There can only be one vtable per class, and all objects of the same class will share the same vtable. [\[1\]](http://www.programmerinterview.com/index.php/c-cplusplus/how-vtables-work/)
 
-The quote above contains a few complicated sentences. Let's break it up into smaller claims. It will take a few posts to verify them all so I will start from the simplest.
+The quote above contains a few complicated sentences. Let's break it up into smaller claims. It will take a few posts to verify them all so I will start from the simplest.
 
 ## Trivial Constructors
 
 > _....not all classes have a vtable_ created for them by the compiler
 
-A trivial constructor is not a term you will find in the C++ specification. Yet often people talk about non-trivial constructors as if there was some simple distinction. Therefore let us work with this definition: _For a default constructor and destructor being "trivial" means literally "do nothing at all". For copy-constructor and copy-assignment operator, being "trivial" means literally "be equivalent to simple raw memory copying" (like copy with `memcpy`)._ 
+A trivial constructor is not a term you will find in the C++ specification. Yet often people talk about non-trivial constructors as if there was some simple distinction. Therefore let us work with this definition: _For a default constructor and destructor being "trivial" means literally "do nothing at all". For copy-constructor and copy-assignment operator, being "trivial" means literally "be equivalent to simple raw memory copying" (like copy with `memcpy`)._ 
 
 Being trivial inherently also means that the constructor can be inlined in the form of memcpy or malloc and no constructor call is necessary. The following C++ class _Trivial_ has no constructor defined so the compiler is free to do as it likes. We know that it will create a default constructor and that this constructor might be trivial. The code is compiled with -O0 (no optimisations), otherwise printf would be inlined directly without the need to create the class.
 

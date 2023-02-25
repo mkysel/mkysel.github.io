@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-A company has requested to streamline their product allocation strategy, and given n products, each of which has an associated value, you are required to arrange these products into segments for processing. There are infinite segments indexed as 1, 2, 3 and so on.
+A company has requested to streamline their product allocation strategy, and given n products, each of which has an associated value, you are required to arrange these products into segments for processing. There are infinite segments indexed as 1, 2, 3 and so on.
 
 ##### Link
 

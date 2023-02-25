@@ -17,13 +17,13 @@ You are given a 2D matrix, _a_, of dimension _MxN_ and a positive integer _R_. Y
 
 ##### Complexity:
 
-time complexity is O(N×M)
+time complexity is O(N×M)
 
 space complexity is O(NxM)
 
 ##### Execution:
 
-There is just lots of code, but the actual solution is pretty simple. I first extract layers, to simplify the logic. Then, I rotate the layers similarly to the [Codility Rotation](http://www.martinkysel.com/codility-cyclicrotation-solution/) challenge.
+There is just lots of code, but the actual solution is pretty simple. I first extract layers, to simplify the logic. Then, I rotate the layers similarly to the [Codility Rotation](http://www.martinkysel.com/codility-cyclicrotation-solution/) challenge.
 
 ##### Solution:
 

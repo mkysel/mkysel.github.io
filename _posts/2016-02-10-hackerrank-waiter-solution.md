@@ -17,7 +17,7 @@ You are a waiter at a party. There are NN stacked plates. Each plate has a numbe
 
 ##### Complexity:
 
-time complexity is O(N\*Q)
+time complexity is O(N\*Q)
 
 space complexity is O(N)
 

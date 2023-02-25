@@ -11,9 +11,9 @@ tags:
 
 ##### Short Problem Definition:
 
-Find the number of ways that a given integer, X , can be expressed as the sum of the Nth powers of unique, natural numbers.
+Find the number of ways that a given integer, X , can be expressed as the sum of the Nth powers of unique, natural numbers.
 
-For example, if X = 13 and N = 2, we have to find all combinations of unique squares adding up to 13. The only solution is 2^2 + 3^2.
+For example, if X = 13 and N = 2, we have to find all combinations of unique squares adding up to 13. The only solution is 2^2 + 3^2.
 
 ##### Link
 
@@ -31,7 +31,7 @@ This solution does not use DP or memoisation, but it does not time out. We know 
 
 Keep in mind that all integers in the solution have to be unique. So for X = 3, the solution 1^2 + 1^2 + 1^2 is not acceptable.
 
-Did I mention that I dislike both NP-Hard problems and recursion? No? So, now you know.
+Did I mention that I dislike both NP-Hard problems and recursion? No? So, now you know.
 
 ##### Solution:
 

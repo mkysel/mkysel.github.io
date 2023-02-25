@@ -11,8 +11,8 @@ categories:
 
 HackerLand University has the following grading policy:
 
-- Every student receives a _grade _in__ the inclusive range from _0_ to _100_.
-- Any _grade_ less than _40_ is a failing grade.
+- Every student receives a _grade _in__ the inclusive range from _0_ to _100_.
+- Any _grade_ less than _40_ is a failing grade.
 
 ##### Link
 

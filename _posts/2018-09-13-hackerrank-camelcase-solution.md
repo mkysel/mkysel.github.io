@@ -11,15 +11,15 @@ tags:
 
 ##### Short Problem Definition:
 
-Alice wrote a sequence of words in [CamelCase](https://en.wikipedia.org/wiki/CamelCase) as a string of letters, , having the following properties:
+Alice wrote a sequence of words in [CamelCase](https://en.wikipedia.org/wiki/CamelCase) as a string of letters, , having the following properties:
 
-- It is a concatenation of one or more _words_ consisting of English letters.
-- All letters in the first word are _lowercase_.
-- For each of the subsequent words, the first letter is _uppercase_ and rest of the letters are _lowercase_.
+- It is a concatenation of one or more _words_ consisting of English letters.
+- All letters in the first word are _lowercase_.
+- For each of the subsequent words, the first letter is _uppercase_ and rest of the letters are _lowercase_.
 
-Given s , print the number of words in s on a new line.
+Given s , print the number of words in s on a new line.
 
-For example, s = OneTwoThree . There are 3 words in the string.
+For example, s = OneTwoThree . There are 3 words in the string.
 
 ##### Link
 

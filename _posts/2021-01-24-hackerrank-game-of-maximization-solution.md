@@ -10,7 +10,7 @@ categories:
 
 ##### Short Problem Definition:
 
-There are n piles of stones, where the ith pile has ai stones. You need to collect the maximum number of stones from these piles
+There are n piles of stones, where the ith pile has ai stones. You need to collect the maximum number of stones from these piles
 
 ##### Link
 

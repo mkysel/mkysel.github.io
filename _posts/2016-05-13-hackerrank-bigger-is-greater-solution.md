@@ -19,13 +19,13 @@ Given a word w, rearrange the letters of w to construct another word in such a w
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is O(N)
 
 space complexity is O(N)
 
 ##### Execution:
 
-This task challenges us to find the next permutation of any given array. There are many implementations available online and it is worthwhile comparing them . I would recommend reading the article by [Nayuki](https://www.nayuki.io/page/next-lexicographical-permutation-algorithm) or re-implementing the [std::next\_permutation](http://en.cppreference.com/w/cpp/algorithm/next_permutation).
+This task challenges us to find the next permutation of any given array. There are many implementations available online and it is worthwhile comparing them . I would recommend reading the article by [Nayuki](https://www.nayuki.io/page/next-lexicographical-permutation-algorithm) or re-implementing the [std::next\_permutation](http://en.cppreference.com/w/cpp/algorithm/next_permutation).
 
 ##### Solution:
 

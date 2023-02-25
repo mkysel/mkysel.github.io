@@ -9,10 +9,10 @@ categories:
 
 ##### Short Problem Definition:
 
-Consider a string, s, consisting only of the letters `a` and `b`. We say that string s is balanced if both of the following conditions are satisfied:
+Consider a string, s, consisting only of the letters `a` and `b`. We say that string s is balanced if both of the following conditions are satisfied:
 
-1. s has the same number of occurrences of `a` and `b`.
-2. In each prefix of s, the number of occurrences of `a` and `b` differ by _at most_ 1.
+1. s has the same number of occurrences of `a` and `b`.
+2. In each prefix of s, the number of occurrences of `a` and `b` differ by _at most_ 1.
 
 Your task is to write a regular expression accepting only balanced strings.
 

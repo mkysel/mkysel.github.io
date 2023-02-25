@@ -27,7 +27,7 @@ space complexity is O(1)
 
 There are more solutions with nlogn time for this challenge. I decided to use [Binary Indexed Trees](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/) as they are a data structure I am not that familiar with. The other solution includes a modified merge-sort that is posted as the problem editorial. BITs are effective for computing cumulative frequencies in log(N) time and are therefore perfectly suited for this problem. They assume a full tree and therefore are bound to the maximal range defined in the problem specification.
 
-EDIT 2020: The solution no longer works. I added a new solution below that is based on [Codility "ArrayInversionCount" Solution](https://www.martinkysel.com/codility-arrayinversioncount-solution/)
+EDIT 2020: The solution no longer works. I added a new solution below that is based on [Codility "ArrayInversionCount" Solution](https://www.martinkysel.com/codility-arrayinversioncount-solution/)
 
 ##### Solution:
 

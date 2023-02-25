@@ -29,7 +29,7 @@ space complexity is O(N)
 
 Compare the frequency counts of the two parts.
 
-The buildMap function can be replaced by:  `from collections import Counter`
+The buildMap function can be replaced by:  `from collections import Counter`
 
 ##### Solution:
 

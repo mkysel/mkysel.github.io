@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Adam is standing at point (a,b) in an infinite 2D grid. He wants to know if he can reach point (x,y) or not. The only operation he can do is to move to point (a+b, b) (a, b+a) (a-b, b), or (a, b-a) from some point (a,b). It is given that he can move to any point on this 2D grid, i.e., the points having positive or negative (or ) co-ordinates.
+Adam is standing at point (a,b) in an infinite 2D grid. He wants to know if he can reach point (x,y) or not. The only operation he can do is to move to point (a+b, b) (a, b+a) (a-b, b), or (a, b-a) from some point (a,b). It is given that he can move to any point on this 2D grid, i.e., the points having positive or negative (or ) co-ordinates.
 
 Tell Adam whether he can reach  or not.
 

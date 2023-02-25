@@ -18,7 +18,7 @@ I assume that readers have a familiarity with C++. I will not be explaining why 
 
 ## Non-virtual function hiding
 
-Let me introduce two new classes. A base class _Base_ and a derived class that inherits from _base_ called _Derived._ Note that both use the same signature of their method _method()_. With dynamic dispatch in place, the vtable would be consulted and the appropriate method would be called. Without dynamic dispatch, the method will be called that matched the type of the pointer to the object. A _Derived\*_ ptr will call _Derived::method()_ and a _Base\*_ ptr will call _Base::method()_. Let us verify the assembly.
+Let me introduce two new classes. A base class _Base_ and a derived class that inherits from _base_ called _Derived._ Note that both use the same signature of their method _method()_. With dynamic dispatch in place, the vtable would be consulted and the appropriate method would be called. Without dynamic dispatch, the method will be called that matched the type of the pointer to the object. A _Derived\*_ ptr will call _Derived::method()_ and a _Base\*_ ptr will call _Base::method()_. Let us verify the assembly.
 
 ```cpp
 class Base {
@@ -106,7 +106,7 @@ private:
 };
 ```
 
-To understand where the virtual table is hidden, let us first examine the memory layout of a simple inheritance hierarchy.  Let us add some integer variables to the Derived and Base class. The sizeof (int) on this particular machine, using this particular compiler is 4 bytes. I always try to keep in mind that this number by no means is guaranteed and can change over time.
+To understand where the virtual table is hidden, let us first examine the memory layout of a simple inheritance hierarchy.  Let us add some integer variables to the Derived and Base class. The sizeof (int) on this particular machine, using this particular compiler is 4 bytes. I always try to keep in mind that this number by no means is guaranteed and can change over time.
 
 Memory locations starting with low numbers (in this case 0x602010) are variables on the heap. Variables located on the stack usually have a very high number (0x7fffffffe3b0). It is common knowledge that the heap grows upwards and the stack grows downwards. How the objects are organised in a stack frame is highly dependant on the compiler used. Some values can be completely optimised out and replaced by registers.
 
@@ -206,7 +206,7 @@ The derived constructor (called from main):
 3. constructs members (_movl 0x100_; line 28)
 4. returns
 
-The base class is fully constructed first without any changes to the members of the derived class. This will be especially important when we introduce virtual tables as this order defines what functions are visible at what stage. Stay tuned for part three.
+The base class is fully constructed first without any changes to the members of the derived class. This will be especially important when we introduce virtual tables as this order defines what functions are visible at what stage. Stay tuned for part three.
 
 If you've read so far, did you notice that the code is leaking (the main method)? I hope you did!
 

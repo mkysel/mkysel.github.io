@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-A _left rotation_ operation on an array shifts each of the array's elements _1_ unit to the left. For example, if _2_ left rotations are performed on array _\[1,2,3,4,5\]_, then the array would become _\[3,4,5,1,2\]_.
+A _left rotation_ operation on an array shifts each of the array's elements _1_ unit to the left. For example, if _2_ left rotations are performed on array _\[1,2,3,4,5\]_, then the array would become _\[3,4,5,1,2\]_.
 
 ##### Link
 

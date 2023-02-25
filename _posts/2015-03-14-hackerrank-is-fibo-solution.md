@@ -27,7 +27,7 @@ There are two methods:
 
 A) generate all fibonacci numbers up to N and check if the candidates are in this set.
 
-B) There is a mathematical function that can prove whether a number is in the Fibonacci sequence in sqrt(N) time. I am not going to explain this here. Read the [discussion](http://stackoverflow.com/questions/2432669/test-if-a-number-is-fibonacci) on SO if you are interested.
+B) There is a mathematical function that can prove whether a number is in the Fibonacci sequence in sqrt(N) time. I am not going to explain this here. Read the [discussion](http://stackoverflow.com/questions/2432669/test-if-a-number-is-fibonacci) on SO if you are interested.
 
 ##### Solution:
 

@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100  for three categories: _problem clarity_, _originality_, and _difficulty_.
+Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100  for three categories: _problem clarity_, _originality_, and _difficulty_.
 
 ##### Link
 
@@ -17,7 +17,7 @@ Alice and Bob each created one problem for HackerRank. A reviewer rates the two 
 
 ##### Complexity:
 
-time complexity is O(1)
+time complexity is O(1)
 
 space complexity is O(1)
 

@@ -23,7 +23,7 @@ space complexity is O(N)
 
 ##### Execution:
 
-There are two distinct values. It is basically a combination with repetition. The order of the stones does not matter.
+There are two distinct values. It is basically a combination with repetition. The order of the stones does not matter.
 
 ##### Solution:
 

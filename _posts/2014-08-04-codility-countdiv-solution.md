@@ -17,7 +17,7 @@ Compute number of integers divisible by k in range \[a..b\].
 
 ##### Complexity:
 
-expected worst-case time complexity is O(1);
+expected worst-case time complexity is O(1);
 
 expected worst-case space complexity is O(1)
 

@@ -17,7 +17,7 @@ Find value that occurs in odd number of elements.
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N);
+expected worst-case time complexity is O(N);
 
 expected worst-case space complexity is O(1)
 

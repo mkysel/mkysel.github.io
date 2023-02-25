@@ -23,7 +23,7 @@ space complexity is O(sqrt(N))
 
 ##### Execution:
 
-There are many ways how to compute the prime composition of a number. I selected one with two optimization steps, there are many more. If there were many numbers to check I would use the Sieve of Eratosthenes to pre-compute the primes. The rest of the solution is straight forward. _Do not forget that prime factors can also contain multiple digits._
+There are many ways how to compute the prime composition of a number. I selected one with two optimization steps, there are many more. If there were many numbers to check I would use the Sieve of Eratosthenes to pre-compute the primes. The rest of the solution is straight forward. _Do not forget that prime factors can also contain multiple digits._
 
 ##### Solution:
 

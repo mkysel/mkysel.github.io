@@ -9,9 +9,9 @@ categories:
 
 ##### Short Problem Definition:
 
-A _prime_ is a natural number _greater than_ 1 that has no positive divisors other than 1 and itself. Given n integers, determine the primality of each integer and print whether it is `Prime` or `Not prime` on a new line.
+A _prime_ is a natural number _greater than_ 1 that has no positive divisors other than 1 and itself. Given n integers, determine the primality of each integer and print whether it is `Prime` or `Not prime` on a new line.
 
-**Note:** If possible, try to come up with an O(sqrt(N)) primality algorithm, or see what sort of optimizations you can come up with for an O(N) algorithm.
+**Note:** If possible, try to come up with an O(sqrt(N)) primality algorithm, or see what sort of optimizations you can come up with for an O(N) algorithm.
 
 ##### Link
 

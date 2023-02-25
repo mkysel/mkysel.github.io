@@ -16,7 +16,7 @@ When I was looking for a simple programming task that I can use to evaluate cand
 - has potential for further discussion
 - not language specific
 
-I went through my list of simple problems (I only considered the easy ones) and I stumbled across [Pairs](http://www.martinkysel.com/hackerrank-pairs-solution/). I instantly realized, that it is the perfect question. There is a brute force solution, the specification can be expanded, we can talk about sorting, hashing, hash collisions, Big-O notation and cases when the input does not fit in memory. Even [Bloom Filters](https://en.wikipedia.org/wiki/Bloom_filter) are a viable topic of discussion.
+I went through my list of simple problems (I only considered the easy ones) and I stumbled across [Pairs](http://www.martinkysel.com/hackerrank-pairs-solution/). I instantly realized, that it is the perfect question. There is a brute force solution, the specification can be expanded, we can talk about sorting, hashing, hash collisions, Big-O notation and cases when the input does not fit in memory. Even [Bloom Filters](https://en.wikipedia.org/wiki/Bloom_filter) are a viable topic of discussion.
 
 My first interview was planned and I was thrilled. I would use the challenge and it would be great! The first three candidates I exposed to the task failed horribly. They could not implement the brute force solution O(n^2) without bugs in the code. I was _horrified_. Is the industry really this bad? Can [programmers really not program](https://blog.codinghorror.com/why-cant-programmers-program/)?
 
@@ -83,7 +83,7 @@ When the algorithm comes first, the implementation tends to communicate the inte
 
 If you have been in software engineering, you might have noticed that we barely ever write any code. We talk about code, we fight over code, we review code and most of the time, we _read_ code. Writing code is so rare, that some people might not have done it in months.
 
-> “Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code. ...\[Therefore,\] making it easy to read makes it easier to write.” ― Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+> “Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code. ...\[Therefore,\] making it easy to read makes it easier to write.” ― Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 
 It is therefore natural, that writing code on a whiteboard is an exceptionally stressful situation. We actually have very little exposure to writing code in the first place.
 

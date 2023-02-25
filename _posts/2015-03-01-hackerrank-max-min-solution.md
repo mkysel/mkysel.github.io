@@ -10,7 +10,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Given a list of N integers, your task is to select K integers from the list such that its _unfairness_ is minimized.
+Given a list of N integers, your task is to select K integers from the list such that its _unfairness_ is minimized.
 
 ##### Link
 

@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Design a class named _Box_ whose dimensions are integers and private to the class.
+Design a class named _Box_ whose dimensions are integers and private to the class.
 
 ...
 

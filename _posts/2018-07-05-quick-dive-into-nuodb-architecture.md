@@ -17,21 +17,21 @@ This article highlights the key concepts and architectural differences that set 
 
 ## Multiple Independent Services
 
-NuoDB splits the traditional monolithic database process into two independent services: a transactional processing service and a storage management service. Each service can be scaled independently. It also has an administration component. This section focuses on the transactional and storage processing services  tiers that support application database activity.
+NuoDB splits the traditional monolithic database process into two independent services: a transactional processing service and a storage management service. Each service can be scaled independently. It also has an administration component. This section focuses on the transactional and storage processing services  tiers that support application database activity.
 
-Splitting the transactional and storage processing services  is key to making a relational system scale. Traditionally, an SQL database is designed to synchronize an on-disk representation of data with an in-memory structure (often based on a B-tree data-structure). This tight coupling of processing and storage management results in a process that is hard to scale out. Separating these services  allows for an architecture that can scale out without being as sensitive to disk throughput (as seen in shared-disk architectures) or requiring explicit sharding (as seen in shared-nothing architectures).
+Splitting the transactional and storage processing services  is key to making a relational system scale. Traditionally, an SQL database is designed to synchronize an on-disk representation of data with an in-memory structure (often based on a B-tree data-structure). This tight coupling of processing and storage management results in a process that is hard to scale out. Separating these services  allows for an architecture that can scale out without being as sensitive to disk throughput (as seen in shared-disk architectures) or requiring explicit sharding (as seen in shared-nothing architectures).
 
 In NuoDB, durability is separated from transactional processing. These services are scaled separately and handle failure independently. Because of this, transactional throughput can be increased with no impact on where or how data is being stored. Similarly, data can be stored in multiple locations with no effect on the application model. Not only is this key to making a database scale, it enables NuoDB to scale on-demand and implement powerful automation models.
 
 \[caption id="" align="aligncenter" width="572"\]![](images/tech-wp_fig1_2%20independent%20tiers.png) Figure 1: The architecture is made up of three independent services.\[/caption\]
 
- 
+ 
 
 The transaction service is responsible for maintaining Atomicity, Consistency, and Isolation in running transactions. It has no visibility into how data is being made durable. It is a purely in-memory tier, so it’s efficient as it has no connection to durability. The transaction service is an always-active, always consistent, on-demand cache.
 
 The storage management service ensures Durability. It’s responsible for making data durable on commit and providing access to data when there’s a miss in the transactional cache. It does this through a set of peer-to-peer coordination messages.
 
-The two services discussed above consist of processes running across an arbitrary number of hosts. NuoDB defines these services  by running a single executable in one of two modes: as a **Transaction Engine (TE)** or a **Storage Manager (SM)**. All processes are peers, with no single coordinator or point of failure and with no special configuration required at any of the hosts. Because there is only one executable, all peers know how to coordinate even when playing separate roles. We refer to TEs and SMs as **Engines**.
+The two services discussed above consist of processes running across an arbitrary number of hosts. NuoDB defines these services  by running a single executable in one of two modes: as a **Transaction Engine (TE)** or a **Storage Manager (SM)**. All processes are peers, with no single coordinator or point of failure and with no special configuration required at any of the hosts. Because there is only one executable, all peers know how to coordinate even when playing separate roles. We refer to TEs and SMs as **Engines**.
 
 TEs accept SQL client connections, parsing and running SQL queries against cached data. All processes (SMs and TEs) communicate with each other over a simple peer-to-peer coordination protocol. When a TE takes a miss on its local cache, it can get the data it needs from any of its peers (either another TE that has the data in-cache or an SM that has access to the durable store).
 
@@ -67,7 +67,7 @@ Along with the two database services is a management service. As with databases,
 
 A Domain is a management boundary. It defines the pool of resources available to run databases and the set of users with permission to manage those resources. In traditional terms, a DBA focuses on a given database and a systems administrator works at the management domain level.
 
-Each Broker is manages  a set of Engines. For physical server deployments, this is typically the Engines running on the same local host. . A Broker is responsible for Engine process management (start/stop), monitoring, and configuration management.. A Broker also has global view of all Brokers in the Domain, and therefore all processes, databases, and events that are useful from a monitoring point of view.
+Each Broker is manages  a set of Engines. For physical server deployments, this is typically the Engines running on the same local host. . A Broker is responsible for Engine process management (start/stop), monitoring, and configuration management.. A Broker also has global view of all Brokers in the Domain, and therefore all processes, databases, and events that are useful from a monitoring point of view.
 
 All Brokers have the same view of the Domain and the same management capabilities. So, like the Engines, there is no single point of failure at the management level as long as multiple Brokers are deployed. Provisioning a new host for a Domain is done by starting a new Broker peered to one of the existing Brokers.
 
@@ -83,4 +83,4 @@ As software development organizations are moving to a cloud-deployment model, a 
 
 To read the full version of this article, download our whitepaper [http://go.nuodb.com/white-paper.html](http://go.nuodb.com/white-paper.html)
 
-This article first appeared at the [NuoDB Tech Blog](https://www.nuodb.com/techblog/quick-dive-nuodb-architecture) under the name [Quick Dive into NuoDB Architecture](https://www.nuodb.com/techblog/quick-dive-nuodb-architecture).
+This article first appeared at the [NuoDB Tech Blog](https://www.nuodb.com/techblog/quick-dive-nuodb-architecture) under the name [Quick Dive into NuoDB Architecture](https://www.nuodb.com/techblog/quick-dive-nuodb-architecture).

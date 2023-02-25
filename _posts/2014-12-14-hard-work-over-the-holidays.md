@@ -14,7 +14,7 @@ First of all, I would like to **thank everyone who has subscribed** to my blog a
 
 I did not post during the last few weeks as I was on a much needed vacation in the beautiful country of Myanmar. If you ever wanted to get away from the internet, make this place your choice! Temples (and their music which you will start to hate), Buddhas (which you will count first and ignore afterwards), nowhere-else-to-be-found food (always with chicken) and floating gardens (floating food, how awesome is that!).
 
-On my return I was contacted by Codility (whose challenges kinda became the main topic of my posts lately). As it happens, we, the bloggers, received a gift package (that made me more enthusiastic than it should). Yaaay! So here is the extremely bad photo I made today!
+On my return I was contacted by Codility (whose challenges kinda became the main topic of my posts lately). As it happens, we, the bloggers, received a gift package (that made me more enthusiastic than it should). Yaaay! So here is the extremely bad photo I made today!
 
 ![SupportCodility](images/Support-1-1024x682.jpg)
 

@@ -5,7 +5,7 @@ categories:
   - "nuodb"
 ---
 
-As I explained in a previous blog post, sometimes MVCC is not sufficient and an operation needs to block out all other concurrent modifications. NuoDB is able to lock three types of lockable resources: tables, schemas, and sequences. A resource can either be locked in SHARED mode (which still allows record modification, but no metadata modification) or EXCLUSIVE which prevents any concurrent modification.
+As I explained in a previous blog post, sometimes MVCC is not sufficient and an operation needs to block out all other concurrent modifications. NuoDB is able to lock three types of lockable resources: tables, schemas, and sequences. A resource can either be locked in SHARED mode (which still allows record modification, but no metadata modification) or EXCLUSIVE which prevents any concurrent modification.
 
 EXCLUSIVE access is required for DDL that visits all records (various index operations for example) and distributed concurrent access is not possible. Exclusive access can also be used by operations that need to work around MVCC write skew anomalies.
 
@@ -13,7 +13,7 @@ SHARED locks need to be fast, consume as little memory as possible, involve no a
 
 EXCLUSIVE locks, on the other hand, need to pay the cost.
 
-MVCC uses row locks to serialise updates to a single record. Both transactional locks and row locks participate in the same deadlock detection process, but are otherwise independent. The following table explains the interaction between transactional locks and MVCC row locks. If you are interested in how row locks work, I recommend reading our [MVCC blog series](https://www.nuodb.com/techblog/mvcc-part-1-overview).
+MVCC uses row locks to serialise updates to a single record. Both transactional locks and row locks participate in the same deadlock detection process, but are otherwise independent. The following table explains the interaction between transactional locks and MVCC row locks. If you are interested in how row locks work, I recommend reading our [MVCC blog series](https://www.nuodb.com/techblog/mvcc-part-1-overview).
 
 | Row Locks (DML) / Transactional Locks | Shared | Exclusive |
 | --- | --- | --- |
@@ -44,91 +44,91 @@ A table contains three employees Bob, Mary, and Sue with their respective salari
 | Mary | 150 |
 | Sue | 70 |
 
-Since the company had a good quarter, the CEO now opens a new req AND approves a salary increase for all the existing employees. The total cost can not be higher than 500.
+Since the company had a good quarter, the CEO now opens a new req AND approves a salary increase for all the existing employees. The total cost can not be higher than 500.
 
 The department head of department D1 looks at the total salary, calculates how much more the employees can be payed, and divides the difference equally. In SQL, that would look like:
 
 SQL**\>** **select** **sum****(**salary**)** **as** "Existing Salaries" from employees;
- 
+ 
  Existing Salaries  
  ------------------ 
- 
+ 
         320   
 SQL**\>** update employees **set** salary = salary + **(****select** **(**500-sum**(**salary**)****)****/**count**(**salary**)** from employees**)** ;
 SQL**\>** **select** **\*** from employees;
- 
+ 
  NAME  SALARY  
  ----- ------- 
- 
+ 
  Bob     160   
  Mary    210   
  Sue     130   
- 
+ 
 SQL**\>** **select** **sum****(**salary**)** from employees;
- 
+ 
  SUM  
  ---- 
- 
+ 
  500  
 
 Concurrently, the department head of D2 adds a new employee:
 
 SQL**\>** **select** **sum****(**salary**)** from employees;
- 
+ 
  SUM  
  ---- 
- 
+ 
  320  
- 
+ 
 SQL**\>** insert into employees values**(**'Chung', 500-**(****select** **sum****(**salary**)** from employees**)****)**;
 SQL**\>** **select** **\*** from employees;
- 
+ 
  NAME  SALARY  
  ----- ------- 
- 
+ 
  Bob     100   
  Mary    150   
  Sue      70   
  Chung   180   
- 
+ 
 SQL**\>** **select** **sum****(**salary**)** from employees;
- 
+ 
  SUM  
  ---- 
- 
+ 
  500
 
 As we can see, these two transactions do not conflict in MVCC. Once both transactions commit, the CEOs limit is violated.
 
 SQL**\>** **select** **sum****(**salary**)** from employees;
- 
+ 
  SUM  
  ---- 
- 
+ 
  680 
 
 To prevent this from happening, one of the transactions can acquire an EXCLUSIVE lock. Let us look at the second transaction with locking. We will be using the check;lock;check pattern as explained in the introduction.
 
 SQL**\>** start transaction isolation level **read** committed;
 SQL**\>** **select** **sum****(**salary**)** from employees;
- 
+ 
  SUM  
  ---- 
- 
+ 
  320  
- 
+ 
 SQL**\>** lock table employees; **//** blocks **until** T1 resolves
 SQL**\>** **select** **sum****(**salary**)** from employees;
- 
+ 
  SUM  
  ---- 
- 
+ 
  500  
 SQL**\>** **//** Chung can not be hired
 
 ### UNDER THE HOOD
 
-So how is this logic implemented? NuoDB does not use majority consensus algorithms, such as Paxos or Raft; instead, NuoDB depends on [Chairmanship](https://www.nuodb.com/techblog/why-chairman-aint-master-replica). All EXCLUSIVE requests will need to be granted by the chairman to ensure strict ordering. If an EXCLUSIVE request gets denied, the transaction will have to wait for the current holder to resolve before it can retry.
+So how is this logic implemented? NuoDB does not use majority consensus algorithms, such as Paxos or Raft; instead, NuoDB depends on [Chairmanship](https://www.nuodb.com/techblog/why-chairman-aint-master-replica). All EXCLUSIVE requests will need to be granted by the chairman to ensure strict ordering. If an EXCLUSIVE request gets denied, the transaction will have to wait for the current holder to resolve before it can retry.
 
 EXCLUSIVE locks use a form of INTENT. The chairman broadcasts an INTENT to acquire an EXCLUSIVE lock. All other engines will reply with a collection of all current SHARED locks.
 
@@ -146,22 +146,22 @@ Due to the use of INTENT-like locks, it is impossible to starve an EXCLUSIVE req
 
 _Figure 2. Long running SHARED lock prevents any action on the table_
 
-In **Figure 2** above we can see a situation when a long running analytical query by USER 1 owns a SHARED lock on table T1. While that transaction is in progress, no EXCLUSIVE lock on that resource can be acquired. When a DBA attempts to alter table T1 (which requires EXCLUSIVE access), her transaction will place an INTENT and block on the existing long running transaction. Once an INTENT has been placed, no further SHARED locks can be acquired. All transactions that already own a lock are allowed to proceed, but no new transactions can acquire the lock until the INTENT has been resolved. In this scenario, we can see that USER 2 is unable to insert into the table.
+In **Figure 2** above we can see a situation when a long running analytical query by USER 1 owns a SHARED lock on table T1. While that transaction is in progress, no EXCLUSIVE lock on that resource can be acquired. When a DBA attempts to alter table T1 (which requires EXCLUSIVE access), her transaction will place an INTENT and block on the existing long running transaction. Once an INTENT has been placed, no further SHARED locks can be acquired. All transactions that already own a lock are allowed to proceed, but no new transactions can acquire the lock until the INTENT has been resolved. In this scenario, we can see that USER 2 is unable to insert into the table.
 
 Here is the information that you can acquire from system tables in the situation described in **Figure 2**.
 
 SQL**\>** **select** **\*** from system.transactionallocks;
- 
+ 
  OBJECTID  TRANSID  NODEID  LOCKTYPE  SOURCENODE  
  --------- -------- ------- --------- ----------- 
- 
+ 
     72       1410      2    Exclusive      2      
     72       1026      2    Shared         2      
 SQL**\>** **select** **id**,state, blockedby from system.transactions;
- 
+ 
   ID  STATE  BLOCKEDBY  
  ---- ------ ---------- 
- 
+ 
  1026 Active      -1    
  1410 Active    1026    
  1666 Active    1410   
@@ -172,7 +172,7 @@ To let the system proceed, one of the actors in the dependency graph will need t
 
 The following section assumes that there are no conflicts - that is none of the requests hit a conflicting lock that is already in place. If there is a conflict, the lock request will have to wait for the resolution of the lock, and hence the transaction that owns that lock. Since the lifetime of any arbitrary transaction is outside the control of NuoDB, we will take that out of the equation.
 
-Acquiring a SHARED lock (done automatically by NuoDB) is zero overhead. We have verified this by various in-house performance benchmarks, [TPC-C](http://www.tpc.org/tpcc/default.asp), and [YCSB](https://github.com/brianfrankcooper/YCSB).
+Acquiring a SHARED lock (done automatically by NuoDB) is zero overhead. We have verified this by various in-house performance benchmarks, [TPC-C](http://www.tpc.org/tpcc/default.asp), and [YCSB](https://github.com/brianfrankcooper/YCSB).
 
 The cost of acquiring an EXCLUSIVE lock is three times the network latency.
 
@@ -196,4 +196,4 @@ You can acquire an EXCLUSIVE lock for any type of operation that requires exclus
 
 NuoDB does not use consensus algorithm, but instead depends on chairmanship for lock resolution.
 
-This article first appeared at the [NuoDB Tech Blog](https://www.nuodb.com/techblog/quick-dive-nuodb-architecture) under the name [Distributed Transactional Locks](https://www.nuodb.com/techblog/distributed-transactional-locks)
+This article first appeared at the [NuoDB Tech Blog](https://www.nuodb.com/techblog/quick-dive-nuodb-architecture) under the name [Distributed Transactional Locks](https://www.nuodb.com/techblog/distributed-transactional-locks)

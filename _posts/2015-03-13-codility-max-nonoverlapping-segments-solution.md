@@ -23,7 +23,7 @@ expected worst-case space complexity is O(N)
 
 ##### Execution:
 
-This can be solved by using greedy search. The beginning of the next segment must come strictly after its predecessor.
+This can be solved by using greedy search. The beginning of the next segment must come strictly after its predecessor.
 
 ##### Solution:
 

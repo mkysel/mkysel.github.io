@@ -9,9 +9,9 @@ categories:
 
 ##### Short Problem Definition:
 
-You are a real estate broker in ancient Knossos. You have m unsold houses, and each house j has an area, xj, and a minimum price, yj. You also have n clients, and each client i wants a house with an area greater than ai and a price less than or equal to bi.
+You are a real estate broker in ancient Knossos. You have m unsold houses, and each house j has an area, xj, and a minimum price, yj. You also have n clients, and each client i wants a house with an area greater than ai and a price less than or equal to bi.
 
-Each client can buy _at most_ one house, and each house can have _at most_ one owner. What is the maximum number of houses you can sell?
+Each client can buy _at most_ one house, and each house can have _at most_ one owner. What is the maximum number of houses you can sell?
 
 ##### Link
 

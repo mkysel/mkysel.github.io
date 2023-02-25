@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-You are given a string and your task is to _swap cases_. In other words, convert all lowercase letters to uppercase letters and vice versa.
+You are given a string and your task is to _swap cases_. In other words, convert all lowercase letters to uppercase letters and vice versa.
 
 ##### Link
 

@@ -13,10 +13,10 @@ Kevin and Stuart want to play the '**The Minion Game**'.
 
 **Game Rules**
 
-Both players are given the same string, S.  
-Both players have to make substrings using the letters of the string S.  
-Stuart has to make words starting with _consonants_.  
-Kevin has to make words starting with _vowels_.  
+Both players are given the same string, S.  
+Both players have to make substrings using the letters of the string S.  
+Stuart has to make words starting with _consonants_.  
+Kevin has to make words starting with _vowels_.  
 The game ends when both players have made all possible substrings.
 
 ##### Link

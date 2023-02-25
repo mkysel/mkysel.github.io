@@ -25,7 +25,7 @@ expected worst-case space complexity is O(N)
 
 ##### Execution:
 
-In my mind this problem is very similar to the [Codility Fish](http://www.martinkysel.com/codility-fish-solution/ "Codility ‘Fish’ Solution"). You keep count of how many not-yet-ended disks there are. Every beginning has to cross all not-yet-ended disks. The best explanation on the web was written by [Luca](http://www.lucainvernizzi.net/blog/2014/11/21/codility-beta-challenge-number-of-disc-intersections/). His solution is much better than my C-style double-checked while loop. I therefore created a mixture of both :)
+In my mind this problem is very similar to the [Codility Fish](http://www.martinkysel.com/codility-fish-solution/ "Codility ‘Fish’ Solution"). You keep count of how many not-yet-ended disks there are. Every beginning has to cross all not-yet-ended disks. The best explanation on the web was written by [Luca](http://www.lucainvernizzi.net/blog/2014/11/21/codility-beta-challenge-number-of-disc-intersections/). His solution is much better than my C-style double-checked while loop. I therefore created a mixture of both :)
 
 - Keep in mind that any pair of circles can intersect only once.
 - If 1+ beginnings have the same point as 1+ endings. You first have to process the beginnings. The old and new ones have per definition a meeting point.

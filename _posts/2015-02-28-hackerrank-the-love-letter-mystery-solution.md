@@ -10,7 +10,7 @@ categories:
 
 ##### Short Problem Definition:
 
-James found a love letter his friend Harry has written for his girlfriend. James is a prankster, so he decides to meddle with the letter. He changes all the words in the letter into palindromes.
+James found a love letter his friend Harry has written for his girlfriend. James is a prankster, so he decides to meddle with the letter. He changes all the words in the letter into palindromes.
 
 ##### Link
 

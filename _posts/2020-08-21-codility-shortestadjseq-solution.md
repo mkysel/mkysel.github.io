@@ -9,12 +9,12 @@ categories:
 
 ##### Short Problem Definition:
 
-A non-empty zero-indexed array A consisting of N integers is given. Two integers P and Q are called _adjacent in array A_ if there exists an index 0 ≤ K < N−1 such that:
+A non-empty zero-indexed array A consisting of N integers is given. Two integers P and Q are called _adjacent in array A_ if there exists an index 0 ≤ K < N−1 such that:
 
 - P = A\[K\] and Q = A\[K+1\], or
 - Q = A\[K\] and P = A\[K+1\].
 
-A non-empty zero-indexed sequence B consisting of M integers is called _adjacent in array A_ if the following conditions hold:
+A non-empty zero-indexed sequence B consisting of M integers is called _adjacent in array A_ if the following conditions hold:
 
 - B\[0\] = A\[0\];
 - B\[M−1\] = A\[N−1\];

@@ -25,7 +25,7 @@ space complexity is O(N\*M)
 
 ##### Execution:
 
-This is a longest common subsequence problem in disguise. I encourage you to look at a good explanation [here](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/).
+This is a longest common subsequence problem in disguise. I encourage you to look at a good explanation [here](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/).
 
 ##### Solution:
 

@@ -25,7 +25,7 @@ space complexity is O(N)
 
 ##### Execution:
 
-We count the number of elements that occur in all characters  sets. Just use set intersection.
+We count the number of elements that occur in all characters  sets. Just use set intersection.
 
 ##### Solution:
 

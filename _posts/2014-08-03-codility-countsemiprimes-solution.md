@@ -17,13 +17,13 @@ Count the semiprime numbers in the given range \[a..b\]
 
 ##### Complexity:
 
-expected worst-case time complexity is O(N\*log(log(N))+M);
+expected worst-case time complexity is O(N\*log(log(N))+M);
 
 expected worst-case space complexity is O(N+M)
 
 ##### Execution:
 
-First get all semiprimes from an adaptation of the Sieve of Eratosthenes. Because we will be computing the difference many times a prefix sum is adequate. Get the number of semiprimes up to the point. The index P is decreased by 1 because we want to know all primes that start from P.
+First get all semiprimes from an adaptation of the Sieve of Eratosthenes. Because we will be computing the difference many times a prefix sum is adequate. Get the number of semiprimes up to the point. The index P is decreased by 1 because we want to know all primes that start from P.
 
 ##### Solution:
 

@@ -23,7 +23,7 @@ expected worst-case space complexity is O(M)
 
 ##### Execution:
 
-The solution gets 100/100, but I am skeptical. The runtime is rather O(N \* (log(M)+M)) than O((N+M)\*log(M)).  Maybe it can be proven that the execution of the linear scan will never have to scan all possible positions. I also violate the space complexity by creating a copy of A+B.
+The solution gets 100/100, but I am skeptical. The runtime is rather O(N \* (log(M)+M)) than O((N+M)\*log(M)).  Maybe it can be proven that the execution of the linear scan will never have to scan all possible positions. I also violate the space complexity by creating a copy of A+B.
 
 ##### Solution:
 

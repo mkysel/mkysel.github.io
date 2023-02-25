@@ -10,7 +10,7 @@ categories:
 
 ##### Short Problem Definition:
 
-HackerLand National Bank has a simple policy for warning clients about possible fraudulent account activity. If the amount spent by a client on a particular day is _greater than or equal to_ 2x the client's [median](https://www.hackerrank.com/external_redirect?to=https://en.wikipedia.org/wiki/Median) spending for a trailing number of days, they send the client a notification about potential fraud. The bank doesn't send the client any notifications until they have at least that trailing number of prior days' transaction data.
+HackerLand National Bank has a simple policy for warning clients about possible fraudulent account activity. If the amount spent by a client on a particular day is _greater than or equal to_ 2x the client's [median](https://www.hackerrank.com/external_redirect?to=https://en.wikipedia.org/wiki/Median) spending for a trailing number of days, they send the client a notification about potential fraud. The bank doesn't send the client any notifications until they have at least that trailing number of prior days' transaction data.
 
 ##### Link
 

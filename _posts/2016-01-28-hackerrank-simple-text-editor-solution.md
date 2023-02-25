@@ -28,7 +28,7 @@ space complexity is
 
 ##### Execution:
 
-I maintain two separate stacks. _Self.stack_ represents the current state of the text. I can read data from this stack by indexing it. _Self.cmds_ keeps the history of commands. Each command type knows how to execute itself and how to revert itself.
+I maintain two separate stacks. _Self.stack_ represents the current state of the text. I can read data from this stack by indexing it. _Self.cmds_ keeps the history of commands. Each command type knows how to execute itself and how to revert itself.
 
 ##### Solution:
 

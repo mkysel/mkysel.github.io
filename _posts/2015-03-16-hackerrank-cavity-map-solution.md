@@ -25,7 +25,7 @@ space complexity is O(1)
 
 \*pun\* You only get your cavities checked on an airport \*/pun\*
 
-I check all 4 surrounding elements if they are strictly smaller. If so, I mark the position with an 'X'.  Better runtime than n^2 is not possible as every element has to be visited!
+I check all 4 surrounding elements if they are strictly smaller. If so, I mark the position with an 'X'.  Better runtime than n^2 is not possible as every element has to be visited!
 
 ##### Solution:
 

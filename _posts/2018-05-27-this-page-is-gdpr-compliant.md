@@ -13,7 +13,7 @@ I am proud to announce that Martinkysel.com is GDPR compliant. I know you are in
 
 The goal of GDPR is to protect user’s personally identifying information (PII) and hold businesses to a higher standard when it comes to how they collect, store, and use this data.
 
-[Article 4](http://ec.europa.eu/justice/data-protection/reform/files/regulation_oj_en.pdf#page=33) states that _personal data_ means any information relating to an identified or identifiable natural person (‘data subject’)”.
+[Article 4](http://ec.europa.eu/justice/data-protection/reform/files/regulation_oj_en.pdf#page=33) states that _personal data_ means any information relating to an identified or identifiable natural person (‘data subject’)”.
 
 > "... an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location number, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person."
 

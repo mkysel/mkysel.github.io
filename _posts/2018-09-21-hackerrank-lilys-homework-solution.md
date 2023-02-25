@@ -13,7 +13,7 @@ tags:
 
 Whenever George asks Lily to hang out, she's busy doing homework. George wants to help her finish it faster, but he's in over his head! Can you help George understand Lily's homework so she can hang out with him?
 
-Consider an array of m distinct integers, arr = \[a\[0\], a\[1\], ..., a\[n-1\]\]. George can swap any two elements of the array any number of times. An array is _beautiful_ if the sum of |a\[i\] - a\[i-1\] among 0 < i < n is minimal.
+Consider an array of m distinct integers, arr = \[a\[0\], a\[1\], ..., a\[n-1\]\]. George can swap any two elements of the array any number of times. An array is _beautiful_ if the sum of |a\[i\] - a\[i-1\] among 0 < i < n is minimal.
 
 ##### Link
 

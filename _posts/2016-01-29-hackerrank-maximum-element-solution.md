@@ -21,7 +21,7 @@ You have an empty sequence, and you will be given N queries. Each query is one o
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is O(N)
 
 space complexity is O(N)
 

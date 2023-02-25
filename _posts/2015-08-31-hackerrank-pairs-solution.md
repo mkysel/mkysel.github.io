@@ -23,7 +23,7 @@ space complexity is O(N)
 
 ##### Execution:
 
-The solution is pretty straight-forward, just read the code :). The runtime complexity is calculated with log(N) access times for tree-based sets (not the case in Python).
+The solution is pretty straight-forward, just read the code :). The runtime complexity is calculated with log(N) access times for tree-based sets (not the case in Python).
 
 Note: The problem specification has a contraint on K: 0<K<10^9. If K was allowed to be 0, this challenge would become slightly more difficult.
 

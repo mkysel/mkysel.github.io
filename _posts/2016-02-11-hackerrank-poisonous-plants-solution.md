@@ -17,13 +17,13 @@ There are NN plants in a garden. Each of these plants has been added with some a
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is O(N)
 
 space complexity is O(N)
 
 ##### Execution:
 
- 
+ 
 
 This challenge was really hard. I could not figure it out for a long time. The part with the stack is pretty obvious, but I missed the fact that older plants can have higher daysAlive values.
 

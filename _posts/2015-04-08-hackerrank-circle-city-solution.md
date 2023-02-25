@@ -23,7 +23,7 @@ space complexity is O(1)
 
 ##### Execution:
 
-You have to solve the circle equation _M^2 + N^2 = D_ where M and N are integral numbers. There is an article on [wiki](http://en.wikipedia.org/wiki/Gauss_circle_problem "Gauss Circle Problem").
+You have to solve the circle equation _M^2 + N^2 = D_ where M and N are integral numbers. There is an article on [wiki](http://en.wikipedia.org/wiki/Gauss_circle_problem "Gauss Circle Problem").
 
 ##### Solution:
 

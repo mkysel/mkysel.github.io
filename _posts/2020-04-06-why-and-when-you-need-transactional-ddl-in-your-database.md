@@ -29,7 +29,7 @@ Originally, the idea of a data definition language was introduced as part of the
 
 In 1969 CODASYL’s Data Base Task Group (DBTG) published its first language specifications for their data model: a data definition language for defining the database schema, another DDL to define application views of the database, and (you guessed it) a data manipulation language that defined verbs to request and update data in the database. Later DDL was used to refer to a subset of SQL to declare tables, columns, data types, and constraints, and SQL-92 introduced a schema manipulation language and schema information tables to query schemas. In SQL:2003 these information tables were specified as SQL/Schemata.
 
-Transactionality of DDL, however, is not part of the ANSI SQL standard. Section 17.1 of [ANSI SQL 2016](https://webstore.ansi.org/Standards/ISO/ISOIEC90752016-1646101?source=blog) () only specifies the grammar and the supported isolation levels. It does not specify how a transaction should behave or what ‘transactional’ means.
+Transactionality of DDL, however, is not part of the ANSI SQL standard. Section 17.1 of [ANSI SQL 2016](https://webstore.ansi.org/Standards/ISO/ISOIEC90752016-1646101?source=blog) () only specifies the grammar and the supported isolation levels. It does not specify how a transaction should behave or what ‘transactional’ means.
 
 ## WHY ISN’T TRANSACTIONAL DDL UNIVERSALLY PROVIDED?
 
@@ -47,7 +47,7 @@ MVCC provides the semantics we might naturally desire. Read DML can proceed whil
 
 We have established that Read DML (SELECT) can happily proceed regardless of what else is executing concurrently in the system. Write DML (INSERT, UPDATE, DELETE) is not allowed to execute on a table that is being concurrently modified by DDL. Explaining the semantics of the conflicts expected behavior based on the Isolation Levels of all concurrent transactions is beyond the scope of this article.
 
-To simplify the discussion, we state that both write DML and DDL are mutually exclusive if executed on the same resource. This results in operations blocking each other.  If you have a long-running DDL transaction, such as a rolling upgrade of your application, write DML will be prevented for a long period of time.
+To simplify the discussion, we state that both write DML and DDL are mutually exclusive if executed on the same resource. This results in operations blocking each other.  If you have a long-running DDL transaction, such as a rolling upgrade of your application, write DML will be prevented for a long period of time.
 
 So even though the DDL is transactional, it can still lead to database downtime and maintenance windows. Or does it?
 
@@ -69,7 +69,7 @@ Specifically, for index creation, NuoDB and other databases implement an ONLINE 
 
 Interestingly enough, sometimes the speed of execution is not the primary concern. In which case you may not want to use the online version. You might have an application that requires complex changes to a database schema and some LOCKING is a viable tradeoff for a much simpler upgrade procedure.
 
-Atomicity, one of the four guarantees of ACID, states that: _“Each transaction is treated as a single ‘unit,’ which either succeeds completely or fails completely.”_
+Atomicity, one of the four guarantees of ACID, states that: _“Each transaction is treated as a single ‘unit,’ which either succeeds completely or fails completely.”_
 
 This becomes a very desirable quality if we think of transactions as a set of many DDL statements. An example would be: alter a table; create a log table with a similar name; insert a few rows to other tables. We already know that if DDL is not treated transactionally, you could end up with new rows in the other tables, but neither the CREATE nor the ALTER succeeded. Or you could end up with just the CREATE and no ALTER.
 

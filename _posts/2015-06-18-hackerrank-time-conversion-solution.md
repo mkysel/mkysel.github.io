@@ -14,7 +14,7 @@ You are given time in AM/PM format. Convert this into a 24 hour format.
 
 ##### Link
 
-[Time  Conversion](https://www.hackerrank.com/challenges/time-conversion)
+[Time  Conversion](https://www.hackerrank.com/challenges/time-conversion)
 
 ##### Complexity:
 

@@ -7,13 +7,13 @@ categories:
 
 ## Introduction
 
-This article is part of the C++ Virtual Table Series: [Part 1](https://www.martinkysel.com/demystifying-virtual-tables-in-c-part-1-trivial-constructors/), [Part 2](https://www.martinkysel.com/demystifying-virtual-tables-in-c-part-2-non-virtual-inheritance/), [Part 3](https://www.martinkysel.com/demystifying-virtual-tables-in-c-part-3-virtual-tables/).
+This article is part of the C++ Virtual Table Series: [Part 1](https://www.martinkysel.com/demystifying-virtual-tables-in-c-part-1-trivial-constructors/), [Part 2](https://www.martinkysel.com/demystifying-virtual-tables-in-c-part-2-non-virtual-inheritance/), [Part 3](https://www.martinkysel.com/demystifying-virtual-tables-in-c-part-3-virtual-tables/).
 
 In the previous parts of the series, we look at [Trivial](http://www.martinkysel.com/demystifying-virtual-tables-in-c-part-1-trivial-constructors/) cases and [Non-virtual](http://www.martinkysel.com/demystifying-virtual-tables-in-c-part-2-non-virtual-inheritance/) inheritance. Now, it is time to look at the actual content of the series. I repeat the citation we are verifying here:
 
-> Whenever a class itself _contains virtual functions or overrides virtual functions from a parent class_ the compiler builds a vtable for that class. This means that _not all classes have a vtable_ created for them by the compiler. The vtable contains function pointers that point to the virtual functions in that class. There can only be one vtable per class, and all objects of the same class will share the same vtable. [\[1\]](http://www.programmerinterview.com/index.php/c-cplusplus/how-vtables-work/)
+> Whenever a class itself _contains virtual functions or overrides virtual functions from a parent class_ the compiler builds a vtable for that class. This means that _not all classes have a vtable_ created for them by the compiler. The vtable contains function pointers that point to the virtual functions in that class. There can only be one vtable per class, and all objects of the same class will share the same vtable. [\[1\]](http://www.programmerinterview.com/index.php/c-cplusplus/how-vtables-work/)
 
-We have shown that classes without a virtual function indeed contain no virtual pointer and no virtual table is constructed. A virtual table is an array of **function pointers** although other data types are also possible. The layout is generally compiler-specific (or ABI-specific where multiple C++ compilers share an ABI) and somewhat stable. All the virtual function tables are in the memory associated with your process. In case of GDB all your virtual function tables are stored in **read-only memory** which protects it from unintentional overwrites. The functions themselves (their assembly instructions) are stored in the .text section of the elf binary.
+We have shown that classes without a virtual function indeed contain no virtual pointer and no virtual table is constructed. A virtual table is an array of **function pointers** although other data types are also possible. The layout is generally compiler-specific (or ABI-specific where multiple C++ compilers share an ABI) and somewhat stable. All the virtual function tables are in the memory associated with your process. In case of GDB all your virtual function tables are stored in **read-only memory** which protects it from unintentional overwrites. The functions themselves (their assembly instructions) are stored in the .text section of the elf binary.
 
 ## Structure of a virtual table
 
@@ -182,9 +182,9 @@ Segmentation fault
 
 The code above might look a bit complicated but it is not. mVtable is dereferenced three times to reach the first entry in the vtable.
 
-- the value of the pointer is the address of the variable on the stack
+- the value of the pointer is the address of the variable on the stack
     - (long \*\*\*) 0x7fffffffe3b0
-- the first dereference of mVtable gives us the address of the actual object on the heap
+- the first dereference of mVtable gives us the address of the actual object on the heap
     - (long \*\*) 0x603010
 - the second dereference of mVtable gives us the address of the vtable we are looking for
     - (long \*) 0x400af0 \[vtable for Derived+16\]

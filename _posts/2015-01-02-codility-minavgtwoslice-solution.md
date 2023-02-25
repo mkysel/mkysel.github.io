@@ -23,7 +23,7 @@ expected worst-case space complexity is O(N)
 
 ##### Execution:
 
-Every slice must be of size two or three. Slices of bigger sizes are created from such smaller slices. Therefore should any bigger slice have an optimal value, all sub-slices must be the same, for this case to hold true. Should this not be true, one of the sub-slices must be the optimal slice. The others being bigger. Therefore we check all possible slices of size 2/3 and return the smallest one. The first such slice is the correct one, do not use <=!
+Every slice must be of size two or three. Slices of bigger sizes are created from such smaller slices. Therefore should any bigger slice have an optimal value, all sub-slices must be the same, for this case to hold true. Should this not be true, one of the sub-slices must be the optimal slice. The others being bigger. Therefore we check all possible slices of size 2/3 and return the smallest one. The first such slice is the correct one, do not use <=!
 
 For other languages use BigInts or equal. This line _(A\[idx\] + A\[idx+1\] + A\[idx+2\])/3.0_ can easily overflow!
 

@@ -12,7 +12,7 @@ tags:
 
 ##### Short Problem Definition:
 
-Given a set _S_ of _n_ distinct integers, print the size of a maximal subset _S'_ of _S_ where the sum of any 2 numbers in _S'_ are not evenly divisible by _k_.
+Given a set _S_ of _n_ distinct integers, print the size of a maximal subset _S'_ of _S_ where the sum of any 2 numbers in _S'_ are not evenly divisible by _k_.
 
 ##### Link
 
@@ -26,7 +26,7 @@ space complexity is O(N)
 
 ##### Execution:
 
-This is by all means not an easy task and is also reflected by the high failure ratio of the participants. For a sum of two numbers to be evenly divisible by k the following condition has to hold. If the remainder of _N1%k == r_ then _N2%k = k-r_ for _N1+N2 % k == 0_. Let us calculate the set of all numbers with a remainder of _r_ and _k-r_ and pick the larger set. If the remainder is half of k such as 2 % 4 = 2 or exactly k such as 4 % 4 = 0, just one number from each of these sets can be contained in _S'._
+This is by all means not an easy task and is also reflected by the high failure ratio of the participants. For a sum of two numbers to be evenly divisible by k the following condition has to hold. If the remainder of _N1%k == r_ then _N2%k = k-r_ for _N1+N2 % k == 0_. Let us calculate the set of all numbers with a remainder of _r_ and _k-r_ and pick the larger set. If the remainder is half of k such as 2 % 4 = 2 or exactly k such as 4 % 4 = 0, just one number from each of these sets can be contained in _S'._
 
 ##### Solution:
 

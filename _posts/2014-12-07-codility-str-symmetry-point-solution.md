@@ -23,7 +23,7 @@ expected worst-case space complexity is O(1) (not counting the storage required 
 
 ##### Execution:
 
-This problem gave me a lot of headache. It is so trivial I that over-complicated it. I thought that you should find a symmetry point at any possible position, ignoring the residual characters. You would obviously try to maximize the length of this symmetrical sub-array. I was not able to come with any O(S) algorithm for this problem derivation. So just to remind you, **this problem is a simple palindrome check**. Additionally, you drop all evenly sized strings as their symmetry point is between the indexes.
+This problem gave me a lot of headache. It is so trivial I that over-complicated it. I thought that you should find a symmetry point at any possible position, ignoring the residual characters. You would obviously try to maximize the length of this symmetrical sub-array. I was not able to come with any O(S) algorithm for this problem derivation. So just to remind you, **this problem is a simple palindrome check**. Additionally, you drop all evenly sized strings as their symmetry point is between the indexes.
 
 ##### Solution:
 

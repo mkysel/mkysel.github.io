@@ -27,7 +27,7 @@ This problem can be solved by in a Dynamic Programming way. You need to know the
 
 The N\*log(N) time complexity is given by the fact, that there are approximately log(N) Fibonacci numbers up to N and you visit each position once.
 
-As for the sequence hack: there are 26 Fibonacci numbers smaller than 100k, so I just preallocate an array of this size.
+As for the sequence hack: there are 26 Fibonacci numbers smaller than 100k, so I just preallocate an array of this size.
 
 ##### Solution:
 

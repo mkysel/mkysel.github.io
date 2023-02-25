@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for _most points_ and _least points_ in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
+Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for _most points_ and _least points_ in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
 
 ##### Link
 

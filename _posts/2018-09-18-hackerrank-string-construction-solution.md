@@ -13,8 +13,8 @@ tags:
 
 Amanda has a string of lowercase letters that she wants to copy to a new string. She can perform the following operations with the given costs. She can perform them any number of times to construct a new string p:
 
-- Append a character to the end of string p at a cost of 1 dollar.
-- Choose any [substring](https://en.wikipedia.org/wiki/Substring) of p and append it to the end of  at no charge.
+- Append a character to the end of string p at a cost of 1 dollar.
+- Choose any [substring](https://en.wikipedia.org/wiki/Substring) of p and append it to the end of  at no charge.
 
 ##### Link
 

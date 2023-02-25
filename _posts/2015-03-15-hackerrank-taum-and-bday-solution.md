@@ -23,7 +23,7 @@ space complexity is O(1)
 
 ##### Execution:
 
-The cost for each present is either the cost of its category, or the cost of the other category + the conversion cost. Just select the minimum.
+The cost for each present is either the cost of its category, or the cost of the other category + the conversion cost. Just select the minimum.
 
 ##### Solution:
 

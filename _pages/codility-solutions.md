@@ -85,26 +85,26 @@ On this page I am sharing my solutions to the codility.com problem sets. They ca
 - [AbsDistinct](http://www.martinkysel.com/codility-absdistinct-solution/ "Codility ‘AbsDistinct’ Solution") \[painless\]✓
 - [CountDistinctSlices](http://www.martinkysel.com/codility-countdistinctslices-solution/ "Codility ‘CountDistinctSlices’ Solution") \[respectable\]✓
 - [CountTriangles](http://www.martinkysel.com/codility-counttriangles-solution/ "Codility ‘CountTriangles’ Solution") \[respectable\]✓
-- [MinAbsSumOfTwo](http://www.martinkysel.com/codility-minabssumoftwo-solution/ "Codility ‘MinAbsSumOfTwo’ Solution") \[ambitious\]✓
+- [MinAbsSumOfTwo](http://www.martinkysel.com/codility-minabssumoftwo-solution/ "Codility ‘MinAbsSumOfTwo’ Solution") \[ambitious\]✓
 
 ## 14) Greedy algorithms
 
-- [TieRopes \[painless\]✓](http://www.martinkysel.com/codility-tieropes-solution/ "Codility ‘TieRopes’ Solution")
-- [MaxNonoverlappingSegments](http://www.martinkysel.com/codility-max-nonoverlapping-segments-solution/ "Codility ‘Max Nonoverlapping Segments’ Solution") \[painless\]✓
+- [TieRopes \[painless\]✓](http://www.martinkysel.com/codility-tieropes-solution/ "Codility ‘TieRopes’ Solution")
+- [MaxNonoverlappingSegments](http://www.martinkysel.com/codility-max-nonoverlapping-segments-solution/ "Codility ‘Max Nonoverlapping Segments’ Solution") \[painless\]✓
 
 ## 15) Dynamic Programming
 
 - [NumberSolitaire](http://www.martinkysel.com/codility-numbersolitaire-solution/ "Codility ‘NumberSolitaire’ Solution") \[respectable\]✓
 - MinAbsSum \[ambitious\]✗
 
-## 16) Future Training
+## 16) Future Training
 
-- [BinaryGap](http://www.martinkysel.com/codility-binarygap-solution/ "Codility ‘BinaryGap’ Solution") \[painless\]✓
-- [StrSymmetryPoint](http://www.martinkysel.com/codility-str-symmetry-point-solution/ "Codility ‘Str Symmetry Point’ Solution") \[painless\]✓
-- [OddOccurencesInArray](http://www.martinkysel.com/codility-oddoccurrencesinarray-solution/ "Codility ‘OddOccurrencesInArray’ Solution") \[painless\]✓
+- [BinaryGap](http://www.martinkysel.com/codility-binarygap-solution/ "Codility ‘BinaryGap’ Solution") \[painless\]✓
+- [StrSymmetryPoint](http://www.martinkysel.com/codility-str-symmetry-point-solution/ "Codility ‘Str Symmetry Point’ Solution") \[painless\]✓
+- [OddOccurencesInArray](http://www.martinkysel.com/codility-oddoccurrencesinarray-solution/ "Codility ‘OddOccurrencesInArray’ Solution") \[painless\]✓
 - [TreeHeight](http://www.martinkysel.com/codility-treeheight-solution/ "Codility ‘TreeHeight’ Solution") \[painless\]✓
-- [CyclicRotation](http://www.martinkysel.com/codility-cyclicrotation-solution/) \[painless\]✓
-- [ArrayInversionCount](http://www.martinkysel.com/codility-arrayinversioncount-solution/ "Codility ‘ArrayInversionCount’ Solution") \[respectable\]✓
+- [CyclicRotation](http://www.martinkysel.com/codility-cyclicrotation-solution/) \[painless\]✓
+- [ArrayInversionCount](http://www.martinkysel.com/codility-arrayinversioncount-solution/ "Codility ‘ArrayInversionCount’ Solution") \[respectable\]✓
 
 ## X) Challenges
 
@@ -115,17 +115,17 @@ On this page I am sharing my solutions to the codility.com problem sets. They ca
 - [Chi 2012 - Cannon Balls](http://www.martinkysel.com/codility-cannonballs-2012-chi-solution/)
 - [Sigma 2012 - StoneWall](http://www.martinkysel.com/codility-stonewall-solution/ "Codility ‘StoneWall’ Solution")
 - Delta 2011 - MinAbsSum
-- [Beta 2010 - NumberOfDiscIntersections](http://www.martinkysel.com/codility-number-of-disc-intersections-2010-beta-solution/)
+- [Beta 2010 - NumberOfDiscIntersections](http://www.martinkysel.com/codility-number-of-disc-intersections-2010-beta-solution/)
 - [Alpha 2010 - PrefixSet](http://www.martinkysel.com/codility-prefixset-2010-alpha-solution/ "Codility ‘PrefixSet’ 2010 Alpha Solution")
 
 * * *
 
 Based on the [Codility Terms of Service](https://codility.com/terms-of-service-for-programmers) it is allowed to share training solutions and solutions to past challenges.
 
-_8.1.  Any Task, statement or information on the Site (including Tests Sessions and Test Session results) is confidential information. You agree not to:_
+_8.1.  Any Task, statement or information on the Site (including Tests Sessions and Test Session results) is confidential information. You agree not to:_
 
 _(a)   disclose, publish or reproduce (including posting on any webpage or blog) such information; or_
 
 _(b)   disclose to others details of a recruitment Task, ongoing monthly Challenge or ongoing competition Task (including details relating to its completion)._
 
-_8.2.  This clause does not apply to: Training section of Codility service, Training Tasks and Past Challenges, their solutions and assessment results._
+_8.2.  This clause does not apply to: Training section of Codility service, Training Tasks and Past Challenges, their solutions and assessment results._

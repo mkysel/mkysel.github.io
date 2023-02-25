@@ -23,7 +23,7 @@ Lisa believes a problem to be _special_ if its index (within a chapter) is the s
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is O(N)
 
 space complexity is O(1)
 

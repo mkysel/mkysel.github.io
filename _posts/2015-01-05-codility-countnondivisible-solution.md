@@ -9,7 +9,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Calculate the number of elements of an array that are not divisors of each element.
+Calculate the number of elements of an array that are not divisors of each element.
 
 ##### Link
 
@@ -23,7 +23,7 @@ expected worst-case space complexity is O(N)
 
 ##### Execution:
 
-Using the Sieve of Eratosthenes, you generate divisors for all input elements of A. If a given number x is a divisor of element _(x\*N == element)_, then N also is a divisor. _(N = element//x)._ After all divisors are computed, we simply subtract those (multiplied by their counts or 0) from the total number of elements in A.
+Using the Sieve of Eratosthenes, you generate divisors for all input elements of A. If a given number x is a divisor of element _(x\*N == element)_, then N also is a divisor. _(N = element//x)._ After all divisors are computed, we simply subtract those (multiplied by their counts or 0) from the total number of elements in A.
 
 ##### Solution:
 

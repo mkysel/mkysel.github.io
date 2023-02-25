@@ -23,7 +23,7 @@ expected worst-case space complexity is O(N)
 
 ##### Execution:
 
-The explanation to this challenge has been posted on the Codility web, you can read it [here](https://codility.com/media/train/solution-stone-wall.pdf).
+The explanation to this challenge has been posted on the Codility web, you can read it [here](https://codility.com/media/train/solution-stone-wall.pdf).
 
 ##### Solution:
 

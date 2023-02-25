@@ -10,7 +10,7 @@ categories:
 
 ##### Short Problem Definition:
 
-Dothraki are planning an attack to usurp King Robert from his kingdom. King Robert learns of this conspiracy from Raven and plans to lock the single door through which an enemy can enter his kingdom. But, to lock the door he needs a key that is an anagram of a certain palindrome string.
+Dothraki are planning an attack to usurp King Robert from his kingdom. King Robert learns of this conspiracy from Raven and plans to lock the single door through which an enemy can enter his kingdom. But, to lock the door he needs a key that is an anagram of a certain palindrome string.
 
 ##### Link
 

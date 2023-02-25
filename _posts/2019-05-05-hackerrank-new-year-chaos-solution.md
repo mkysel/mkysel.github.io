@@ -11,9 +11,9 @@ tags:
 
 ##### Short Problem Definition:
 
-It's New Year's Day and everyone's in line for the Wonderland rollercoaster ride! There are a number of people queued up, and each person wears a sticker indicating their _initial_ position in the queue. Initial positions increment by _1_ from _1_ at the front of the line to N at the back.
+It's New Year's Day and everyone's in line for the Wonderland rollercoaster ride! There are a number of people queued up, and each person wears a sticker indicating their _initial_ position in the queue. Initial positions increment by _1_ from _1_ at the front of the line to N at the back.
 
-Any person in the queue can bribe the person _directly in front_ of them to swap positions. If two people swap positions, they still wear the same sticker denoting their original places in line. One person can bribe _at most two others_. For example, if _n = 8_ and _Person 5_ bribes _Person 4_, the queue will look like this: 1, 2, 3, 5, 4, 6, 7, 8.
+Any person in the queue can bribe the person _directly in front_ of them to swap positions. If two people swap positions, they still wear the same sticker denoting their original places in line. One person can bribe _at most two others_. For example, if _n = 8_ and _Person 5_ bribes _Person 4_, the queue will look like this: 1, 2, 3, 5, 4, 6, 7, 8.
 
 Fascinated by this chaotic queue, you decide you must know the minimum number of bribes that took place to get the queue into its current state!
 

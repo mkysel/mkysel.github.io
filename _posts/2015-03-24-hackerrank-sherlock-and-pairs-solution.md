@@ -25,7 +25,7 @@ space complexity is O(n)
 
 ##### Execution:
 
-The first step is to create a count of all integers. Next there are choose(k,2)\*2 distinct pairs for each integer count (this step similar to [Handshake](http://www.martinkysel.com/hackerrank-handshake-solution/ "HackerRank 'Handshake' Solution"), but you count i,j and j,i as two distinct pairs). Count those together and you arrive at the answer.
+The first step is to create a count of all integers. Next there are choose(k,2)\*2 distinct pairs for each integer count (this step similar to [Handshake](http://www.martinkysel.com/hackerrank-handshake-solution/ "HackerRank 'Handshake' Solution"), but you count i,j and j,i as two distinct pairs). Count those together and you arrive at the answer.
 
 ##### Solution:
 

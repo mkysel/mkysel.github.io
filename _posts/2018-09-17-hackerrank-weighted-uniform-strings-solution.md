@@ -11,7 +11,7 @@ tags:
 
 ##### Short Problem Definition:
 
-A weighted string is a string of lowercase English letters where each letter has a _weight_. Character weights are 1 to  26 from a to z...
+A weighted string is a string of lowercase English letters where each letter has a _weight_. Character weights are 1 to  26 from a to z...
 
 ##### Link
 

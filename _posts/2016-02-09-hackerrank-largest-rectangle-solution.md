@@ -19,7 +19,7 @@ Given NN buildings, find the greatest such solid area formed by consecutive buil
 
 ##### Complexity:
 
-time complexity is O(N)
+time complexity is O(N)
 
 space complexity is O(N)
 

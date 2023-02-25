@@ -12,7 +12,7 @@ tags:
 
 ##### Short Problem Definition:
 
-Aerith is playing a cloud game! In this game, there are clouds numbered sequentially from 1 to n. Each cloud is either an _ordinary cloud_ or a _thundercloud_. Given the values of _n_ and _k_ the configuration of the clouds, can you determine the final value of _e_ after the game ends?
+Aerith is playing a cloud game! In this game, there are clouds numbered sequentially from 1 to n. Each cloud is either an _ordinary cloud_ or a _thundercloud_. Given the values of _n_ and _k_ the configuration of the clouds, can you determine the final value of _e_ after the game ends?
 
 ##### Link
 

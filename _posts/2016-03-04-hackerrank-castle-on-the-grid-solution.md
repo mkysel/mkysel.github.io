@@ -23,7 +23,7 @@ It is guaranteed that it is possible to reach the goal position from the initial
 
 ##### Complexity:
 
-time complexity is O(N^2) or O(N^3)
+time complexity is O(N^2) or O(N^3)
 
 space complexity is O(N^2)
 
@@ -31,9 +31,9 @@ space complexity is O(N^2)
 
 This solution works with the task as a 2D array. There are options available where you treat the task as a graph problem. In both cases each node it visited exactly once using BFS. On each node, I generate all nodes that are connected to this node in a straight line that is not broken by a 'X'. I keep the distance data (integer) in the array itself. I store the nodes that have to be visited in a FIFO queue. Once the top element in the queue is the end, I terminate the algorithm. The data stored in the array are these:
 
-- X        - blocked
-- .          - not visited yet
-- (int)   - already visited. Value is the number of steps from the beginning.
+- X        - blocked
+- .          - not visited yet
+- (int)   - already visited. Value is the number of steps from the beginning.
 
 ##### Solution:
 

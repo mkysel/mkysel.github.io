@@ -27,7 +27,7 @@ space complexity is O(1)
 
 I genuinely don't like n^2 solutions. But I could not find anything better.
 
-UPDATE(18/05/16): I found an O(N) solution. As always the complexity of the hash-map can be disputed. I prefer tree-maps which would give us a guaranteed runtime complexity of O(N\*log(N)).
+UPDATE(18/05/16): I found an O(N) solution. As always the complexity of the hash-map can be disputed. I prefer tree-maps which would give us a guaranteed runtime complexity of O(N\*log(N)).
 
 ##### Solution:
 

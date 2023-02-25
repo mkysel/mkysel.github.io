@@ -23,7 +23,7 @@ expected worst-case space complexity is O(N2)
 
 ##### Execution:
 
-This problem screams for the use of a union-find. The hard part was to identify that union-find has no effective delete operation and you first need to add all remaining wires and start from the end. I created a wrapper class to effectively pack the input data into a set. Parsing the whole input for each union candidate (the _not in burnouts_ part) would result in O(N²xN²). By using a set (hash O(1) in Python, RB-tree O(log(N)) in C++)   you are down to N² x log(N). The union operation is also guaranteed to be log(N).
+This problem screams for the use of a union-find. The hard part was to identify that union-find has no effective delete operation and you first need to add all remaining wires and start from the end. I created a wrapper class to effectively pack the input data into a set. Parsing the whole input for each union candidate (the _not in burnouts_ part) would result in O(N²xN²). By using a set (hash O(1) in Python, RB-tree O(log(N)) in C++)   you are down to N² x log(N). The union operation is also guaranteed to be log(N).
 
 Beware though. (0,0) is the bottom left corner. First coordinate is X (right) and second coordinate is Y(up). I, for some reason, am used for the first coordinate to describe the row(down).
 
