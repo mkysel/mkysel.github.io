@@ -53,3 +53,7 @@ I am happy to incorporate any and all feedback.
 ## Breakage
 
 If anything broke, please let me know! Either in the Disqus system or on GitHub.
+
+## Where to learn more?
+
+You can read more about the migration in my post [From Ugly to Beautiful: The Transformation of Martinkysel.com](https://martinkysel.com/from-ugly-to-beautiful).
