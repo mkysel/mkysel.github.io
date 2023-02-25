@@ -124,8 +124,8 @@ Based on the [Codility Terms of Service](https://codility.com/terms-of-service-f
 
 _8.1.  Any Task, statement or information on the Site (including Tests Sessions and Test Session results) is confidential information. You agree not to:_
 
-_(a)   disclose, publish or reproduce (including posting on any webpage or blog) such information; or_
+_(a)  disclose, publish or reproduce (including posting on any webpage or blog) such information; or_
 
-_(b)   disclose to others details of a recruitment Task, ongoing monthly Challenge or ongoing competition Task (including details relating to its completion)._
+_(b)  disclose to others details of a recruitment Task, ongoing monthly Challenge or ongoing competition Task (including details relating to its completion)._
 
 _8.2.  This clause does not apply to: Training section of Codility service, Training Tasks and Past Challenges, their solutions and assessment results._

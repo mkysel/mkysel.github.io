@@ -11,7 +11,7 @@ tags:
 
 ##### Short Problem Definition:
 
-A gene is represented as a string of length N (where  is divisible by 4), composed of the letters A, C, G, and T. It is considered to be _steady_ if each of the four letters occurs exactly 1/4 times. For example, GACT and AAGGCCTT are both steady genes.
+A gene is represented as a string of length N (where is divisible by 4), composed of the letters A, C, G, and T. It is considered to be _steady_ if each of the four letters occurs exactly 1/4 times. For example, GACT and AAGGCCTT are both steady genes.
 
 ##### Link
 
