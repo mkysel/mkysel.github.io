@@ -40,7 +40,7 @@ The whole experience left me feeling a bit frustrated and overwhelmed. But despi
 
 ## What Made This Blog Different
 
-Perhaps I was a bit fortunate that I had recently teamed up with Juraj to create a brand new website for Nomadic Workplace, my umbrella company that enables me to pursue my digital nomad lifestyle while remaining legally employed in the US.
+Perhaps I was a bit fortunate that I had recently teamed up with [Juraj](https://github.com/spello2287) to create a brand new website for [Nomadic Workplace](https://nomadicworkplace.com/), my umbrella company that enables me to pursue my digital nomad lifestyle while remaining legally employed in the US.
 
 When it comes to martinkysel.com, I can confidently say that it boasts two significant advantages over other blogs out there. Firstly, the vast majority of its content follows a similar pattern and covers similar topics. This consistency makes it easier to script a migration without having to deal with a lot of edge cases.
 

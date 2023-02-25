@@ -45,7 +45,7 @@ This was achieved through the use of white space, consistent typography, and cle
 
 And man, this page really needed to be simplified!
 
-## Ability to file issues
+## Ability to File Issues
 
 If you see a bug in any of the pages, just head over to [Github](https://github.com/mkysel/mkysel.github.io) and file an issue.
 I am happy to incorporate any and all feedback.
@@ -54,6 +54,6 @@ I am happy to incorporate any and all feedback.
 
 If anything broke, please let me know! Either in the Disqus system or on GitHub.
 
-## Where to learn more?
+## Where to Learn More?
 
 You can read more about the migration in my post [From Ugly to Beautiful: The Transformation of Martinkysel.com](https://martinkysel.com/from-ugly-to-beautiful).
