@@ -1,0 +1,55 @@
+---
+title: "What Does Distributed SQL Really Mean?"
+date: "2020-03-23"
+categories: 
+  - "nuodb"
+---
+
+The world is moving to the cloud and various post-monolithic SQL databases are emerging. The term “NewSQL” was coined by 451 Research analyst Matt Aslett in 2011, and in 2016 Aslett and Professor Andrew Pavlo of Carnegie Mellon University published a paper titled, “[What’s Really New with NewSQL](https://sigmodrecord.org/publications/sigmodRecord/1606/pdfs/07_forum_Pavlo.pdf),” describing NewSQL as a new class of database management systems that “want to achieve the same scalability of NoSQL DBMSs from the 2000s, but still keep the relational model (with SQL) and transaction support of the legacy DBMSs from the 1970-80s.” NuoDB was founded in 2010 based on this idea, and has been an important player in the distributed relational database space since then. For a while, this concept was referred to as “scalable SQL,” and we’ve also seen reference to “elastic SQL.” More recently, we’ve seen a new term emerge: “distributed SQL.” 
+
+Let me explain why all of these terms refer to essentially the same thing, although the ways that different databases achieve that scalability while maintaining consistency varies. As more and more companies started providing SaaS offerings that had no downtime, a pattern of pain points emerged:
+
+- A monolithic database cannot provide the resiliency and high availability guarantees required by modern always-up, always-available applications. 
+- Scaling up is no longer viable. Machines big enough to run these types of workloads become too expensive, too quickly.
+- NoSQL is not well suited for applications that require strong transactional and ACID guarantees.
+- Explicit sharding is too complex and diverts engineering resources from what matters most: the business.
+
+We’ve seen technologies come and go, but the same four fundamental motivations that are aligned with the shift to the cloud remain unchanged. NuoDB has been here since the beginning, and we continue to help our customers alleviate these pains.
+
+## MANAGING CONSISTENCY & ISOLATION
+
+In ensuring that our database will meet the requirements of you, our customers, and the demands that your customers place on it, we’ve put a lot of thought into how we manage consistency and isolation and the isolation options that we provide. Our engineering team explored implementing a serializable isolation level but decided that the performance impact for our customers would be unacceptable. Serializable isolation is not useful for OLTP applications and is not widely required in the industry.
+
+Serializable as an isolation level is a very useful academic concept, but the real-world OLTP applications that we are supporting use either Consistent Read (referred to as Repeatable Read in some literature) or predominantly Read Committed. The majority of well-known enterprise databases choose Read Committed as their default. Even MySQL, the biggest database that uses Repeatable Read as their default, requires configuration changes to use the serializable isolation level. 
+
+Solutions that are a thin sharding layer on top of another open-source database, such as PostgreSQL or MySQL, usually use the underlying Isolation Level of said database. Neither of these two databases offers serializable isolation by default. Since serializability is a niche feature, NuoDB decided to focus on pushing our performance to the limit while maintaining transactional and ACID guarantees.
+
+## FOCUSED ON PERFORMANCE
+
+This focus on performance has paid off. NuoDB and Temenos recently reported a world record-breaking benchmark for core banking financial transactions. The [benchmark](https://www.temenos.com/us/news/2019/11/21/temenos-benchmarks-its-cloud-native-digital-banking-software-on-the-aws-cloud/) in AWS demonstrated the ability to handle over half the world's financial transactions in a single instance of Temenos running on NuoDB. During the benchmark, both Temenos and NuoDB were able to scale out to meet increasing load and then scale back down dynamically, demonstrating that financial customers can reduce TCO by using only the resources they need.
+
+## HANDLING FAULT TOLERANCE & HIGH AVAILABILITY REQUIREMENTS
+
+NuoDB is a strongly consistent database, using replication between a user defined set of replicas. We recommend a replication factor of two to four, depending on the use case and deployment topology. In general, a system cannot be failure tolerant and highly available without some form of replication. By default, NuoDB allows the creation of databases without explicit sharding because our customers were already going through a lot of pain in the process of pursuing digital transformation goals and moving into the cloud. If needed, NuoDB can be explicitly sharded to improve performance, but more on that later. NuoDB delivers a scale-out and highly available  database, without the additional complexities involved in adopting NoSQL for transactional applications or requiring sharding. These distributed SQL solutions enable companies to focus on what matters most: their business. 
+
+## ADAPTABLE SCALE OUT OPTIONS
+
+NuoDB has a two-tier system of Transaction Engines (TEs) and Storage Managers (SMs) to allow you to fine tune your environment to your particular needs. TEs act as a form of a data cache that dynamically adapts to the queries that are being executed on that TE. No complex, explicit, or manual sharding is required. TEs can be dynamically scale out or in to address changes in application demands. SMs, on the other hand, store all the data in their Storage Group on disk and guarantee durability. A user can decide how many SMs should serve which Storage Groups and hence decide on both the replication factor and the Availability vs. Persistence guarantees that their system requires. Storage Groups also allow users to partition the data across SMs, increasing IO throughput.
+
+Our third tier, responsible for the administrative duties of the database, has been simplified over the years. This includes removing what was previously referred to as “Brokers” with  a RAFT based [Admin tier](https://www.nuodb.com/blog/cloud-native-cloud-agnostic-distributed-sql-database-nuodb-40). The management of a distributed system is extremely complex and we provide a way to hide this complexity away behind an Admin API. This system works equally well in bare-metal and in orchestration platforms such as Kubernetes.
+
+## DEPLOYING IN MULTI-CLOUD, MULTI-CLUSTER ENVIRONMENTS 
+
+As more and more companies start their journey into the cloud, NuoDB is here to guide them and help them embrace an always-up, always-available mindset. At Kubecon 2019 in San Diego, we demonstrated a [multi-cloud, multi-cluster deployment](https://www.nuodb.com/company/press-releases/nuodb-rancher-labs) on Rancher Kubernetes Engine. This unique capability allows you to deploy a single logical database across multiple public or private clouds. Moving into production soon, Hong Kong FinTech leader WeLab is revolutionizing the banking experience for Hong Kong customers. (Stay tuned to learn more about how it works and why it is an important step for companies in their goal to avoid cloud vendor lock-in.) 
+
+To facilitate flexibility in deploying in hybrid environments and across multiple clouds, it’s essential that our database is fully functioning on whichever Cloud Service Provider (CSP) you choose. This is a key part of why NuoDB is cloud agnostic; to enable choice and flexibility, our distributed SQL database runs in all available public clouds, private clouds, and in hybrid cloud environments. Our continuous integration pipelines test and validate the product in Amazon, Azure, and Google Cloud Platform. We also work with AKS, EKS, GKE, and Rancher. Of course not everyone is using us with a CSP or in Kubernetes, so we also work on bare metal and any major VM infrastructure. Deployment in a public cloud is not required and you can easily deploy NuoDB on-prem and in your private homegrown clouds, which allows you the choice to deploy when, where, and how you want.
+
+## DELIVERING A SCALABLE, RESILIENT SQL DATABASE
+
+The concept behind NuoDB has been around since 2008, based on Jim Starkey’s view that traditional SQL databases don’t scale well beyond a single system. This was well before the term NewSQL was coined. In 2020, we have 12 years of experience with building a resilient and ACID compliant database. And as cloud computing adoption has accelerated, our focus hasn’t needed to change. We’ve been building a database that thrives in distributed deployment environments since day one. Naturally, as technology evolves, we continually work to make sure that NuoDB is cloud native, works with microservices, containers, and container orchestration platforms. We explored Docker Swarm and Mesos when they were still a competing option, but decided to focus purely on Kubernetes once it became the leading player. We support [Kubernetes Helm Charts](https://github.com/nuodb/nuodb-helm-charts) and are also actively working on a [Kubernetes Operator](https://github.com/nuodb/nuodb-operator), which is currently available in our [Community Edition](https://www.nuodb.com/dev-center/community-edition-download), freely available for you to try on the Kubernetes Marketplace of your choice.
+
+Many of the other  NewSQL solutions took a shortcut and simply used the SQL layer and storage engines of other open source products. These are fundamentally limited in how far they can grow and how optimized they can become. NuoDB has been working on its own SQL and storage solutions for 12 years, which are highly optimized for our particular architecture running in the cloud. Our SQL engine is not limited by a 3rd party upstream product and has virtually unlimited growth potential that allows us to adapt to the dynamic and ever changing environment we are in.
+
+NuoDB has come a long way since our 1.0 release seven years ago. We have been battle-hardened in production and we are very proud of the achievements we have made since then. We believe in our multi-tiered SM/TE architecture, which is adaptable for the various workloads that our customers require. We believe in our caching mechanism that allows TEs to only access a subset of the data, dynamically adapting to their current workload without the need to shard their data and workloads manually. We believe in our mission to make the use of distributed SQL easier and to support you in your journey from a monolithic database into the cloud. We believe that an important feature of any modern database is that it must be always up and always available. Resilience to failure has been a fundamental design principle in our architecture and day-to-day development. The statement also validates what we have been observing: the core of NuoDB was designed right and is well suited for the shift to the cloud. This means that we have an incredible head start with a proven solution.
+
+This article first appeared on the NuoDB [technical blog](https://www.nuodb.com/techblog/what-does-distributed-sql-really-mean).
