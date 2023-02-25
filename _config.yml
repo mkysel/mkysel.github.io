@@ -6,7 +6,7 @@
 name: Martin Kysel
 
 # Name of the author
-author:
+author: Martin Kysel
 
 # Short bio or description (displayed in the header)
 description: Coding Challenges and More
@@ -24,9 +24,9 @@ footer-links:
   email:
   facebook:
   flickr:
-  github:
-  instagram:
-  linkedin: 
+  github: mkysel
+  instagram: kysel.martin
+  linkedin: martinkysel
   pinterest:
   rss: rss
   twitter:
@@ -38,18 +38,18 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: 
+disqus: codemadehuman
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-42302699-1
 
 # For newer "GA4" analytics, use the following instead of the "UA" entry above
 #google_analytics_ga4: G-GABC1DEFG
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.amitmerchant.com/reverie
-enforce_ssl: https://www.amitmerchant.com/reverie
+url: http://www.martinkysel.com
+enforce_ssl: https://www.martinkysel.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
