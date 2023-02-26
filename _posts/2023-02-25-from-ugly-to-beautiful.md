@@ -20,7 +20,11 @@ As my blog began to grow and attract more readers, the maintenance of the site b
 
 Eventually, in 2020, I began to investigate the possibility of moving my site to a proper hosting solution, such as AWS. However, as I quickly discovered, this option came with a hefty price tag. The cost of a properly hosted server, combined with the need for a distributed database, made this option simply unfeasible for me at the time.
 
+It's not just about hosting, maintaining WordPress can be a headache. While it's an amazing system, opting for a static website can offer several advantages. It's faster, easier to maintain, and more secure, making it a smart choice for those who value efficiency and security.
+
 In the end, I realized that something had to be done to address the ongoing issues with my site's performance and reliability. After careful consideration and research, I made the decision to migrate my site to Jekyll, a static site generator that promised faster load times and a more streamlined maintenance process. And while the process of migrating my site was not without its challenges, I can now say that I am thrilled with the improved performance and ease of use that Jekyll has brought to my blog.
+
+I chose GitHub Pages as my hosting solution, as I regularly use Git and GitHub in my daily work, and the added bonus of open-sourcing the content was a nice benefit for the community.
 
 ## The Long and Winding Road of Migrating to Markdown - According to the Internet
 
@@ -46,7 +50,7 @@ When it comes to martinkysel.com, I can confidently say that it boasts two signi
 
 Secondly, all of the comments on the blog are saved in Disqus. This means that they can be easily transferred and integrated into a new platform, without the risk of losing valuable feedback and engagement from readers.
 
-Finally, let's be honest - the old blog design was pretty unappealing. So, any improvement in this area would be a massive gain for both myself and my readers. With the new Jekyll-based site, we were able to create a much cleaner, more streamlined design that not only looks better but also makes it easier for readers to navigate and engage with the content.
+Finally, let's be honest - the old blog design was pretty unappealing. So, any improvement in this area would be a massive gain for both myself and my readers. With the new Jekyll-based site, I was able to create a much cleaner, more streamlined design that not only looks better but also makes it easier for readers to navigate and engage with the content.
 
 ## The Steps of the Actual Migration Process
 
@@ -62,6 +66,7 @@ Of course, the migration process wasn't just about transferring content from one
 
 The entire process took only *four hours* - no joke. I started around 8PM and got so absorbed in it that I barely noticed the time passing. I remember making a fresh batch of argentinean mate while working away. By around 11PM, I decided the website was good enough and made the move to switch the DNS entries over to the new website. Of course, there may be some kinks to iron out over the next few days as I discover any issues that may have gone wrong or missing, but overall, it was nowhere near the month or six months I was anticipating.
 And if you don't believe me, you can check the git history.
+The blog's source is open on [GitHub Pages](https://github.com/mkysel/mkysel.github.io).
 
 ## Lessons Learned: Be Skeptical
 
@@ -69,6 +74,8 @@ Reflecting on this experience, I have come to realize that there are a few key t
 
 Firstly, when it comes to using standard tools, the integration with existing systems can be seamless. In my case, because I was using widely accepted tools for the migration process, such as WordPress and Markdown, the transition was relatively smooth. However, the process could have been complicated if I had relied on more obscure or specialized tools.
 
-Secondly, it is important to approach time estimates with a healthy dose of skepticism. I was initially quoted a range of 1-3 months for the migration process by one service provider, which turned out to be completely off-base. It is essential to use common sense and T-shirt sizing estimates.
+Secondly, keep it simple stupid. Pick a system that requires the least maintenance.
+
+Thirdly, it is important to approach time estimates with a healthy dose of skepticism. I was initially quoted a range of 1-3 months for the migration process by one service provider, which turned out to be completely off-base. It is essential to use common sense and T-shirt sizing estimates.
 
 Lastly, be wary if your customer is another software engineer. Trying to "bullshit" your way through a negotiation will only lead to frustration and disappointment for both parties. Other engineers are highly skilled professionals who understand the complexities of building and maintaining software systems. They know what is feasible and what is not, and inaccurate estimates should alarm them to sketchy behavior.
