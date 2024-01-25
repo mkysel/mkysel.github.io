@@ -1,10 +1,10 @@
 ---
-title: "HackerRank 'Product Distribution' Solution"
-date: "2020-07-31"
-categories: 
-  - "coding-challenge"
-  - "hack-the-interview"
-  - "hackerrank"
+title: HackerRank 'Product Distribution' Solution
+date: '2020-07-31'
+categories:
+  - coding-challenge
+  - hack-the-interview
+  - hackerrank
 ---
 
 ##### Short Problem Definition:

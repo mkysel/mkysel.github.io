@@ -1,10 +1,10 @@
 ---
-title: "HackerRank 'Simple Text Editor' Solution"
-date: "2016-01-28"
-categories: 
-  - "coding-challenge"
-  - "hackerrank"
-  - "python"
+title: HackerRank 'Simple Text Editor' Solution
+date: '2016-01-28'
+categories:
+  - coding-challenge
+  - hackerrank
+  - python
 ---
 
 ##### Short Problem Definition:
@@ -12,9 +12,9 @@ categories:
 In this problem, your task is to implement a simple text editor. Initially, a file contains an empty string S. Your task is to perform Q operations consisting of the following 4 types:
 
 1. append(W) - Appends the string W at the end of S.
-2. erase(k) - Erase the last k character of S.
-3. get(k) - Returns the kth character of S.
-4. undo() - Undo the last not previously undone operation of type 1 or 2, so it reverts S to the state before that operation.
+1. erase(k) - Erase the last k character of S.
+1. get(k) - Returns the kth character of S.
+1. undo() - Undo the last not previously undone operation of type 1 or 2, so it reverts S to the state before that operation.
 
 ##### Link
 

@@ -1,12 +1,12 @@
 ---
-title: "HackerRank 'Mini-Max Sum' Solution"
-date: "2019-05-12"
-categories: 
-  - "coding-challenge"
-  - "hackerrank"
-  - "python"
-tags: 
-  - "timed"
+title: HackerRank 'Mini-Max Sum' Solution
+date: '2019-05-12'
+categories:
+  - coding-challenge
+  - hackerrank
+  - python
+tags:
+  - timed
 ---
 
 ##### Short Problem Definition:

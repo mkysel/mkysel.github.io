@@ -1,10 +1,10 @@
 ---
-title: "HackerRank 'Find Digits' Solution"
-date: "2015-03-10"
-categories: 
-  - "coding-challenge"
-  - "hackerrank"
-  - "python"
+title: HackerRank 'Find Digits' Solution
+date: '2015-03-10'
+categories:
+  - coding-challenge
+  - hackerrank
+  - python
 ---
 
 ##### Short Problem Definition:
