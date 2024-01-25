@@ -6,7 +6,8 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
 end
 
-gem 'webrick'
+gem 'github-pages'
+gem 'webrick', "~> 1.7"
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
