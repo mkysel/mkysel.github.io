@@ -1,5 +1,28 @@
-## Local Development
+# Sera - Jekyll Theme
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-1. Serve the site and watch for markup/sass changes `jekyll serve`
-1. View your website at http://127.0.0.1:4000/
+## System Preparation
+
+To use this project, you'll need the following things installed on your machine.
+
+1. [Jekyll](http://jekyllrb.com/docs/) - `$ gem install jekyll bundler`
+2. [Jekyll-Gems](http://jekyllrb.com/docs/) - `$ bundle install`
+
+## Usage
+
+Since this is a Jekyll theme, every command described in the [Jekyll documentation](https://jekyllrb.com/docs/) is available.
+
+### Development
+
+To start the development workflow, run:
+
+```
+bundle exec jekyll serve --livereload
+```
+
+### Production
+
+To build the project, run:
+
+```
+bundle exec jekyll build
+```
