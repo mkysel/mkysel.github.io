@@ -46,6 +46,8 @@ disqus: codemadehuman
 # For newer "GA4" analytics, use the following instead of the "UA" entry above
 google_analytics_ga4: G-GP319JXW5B
 
+coffee: 9MuV2cn
+
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
 url: http://www.martinkysel.com
