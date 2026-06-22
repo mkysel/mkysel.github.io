@@ -1,0 +1,12 @@
+{
+  "extraKnownMarketplaces": {
+    "personalized-skills": {
+      "source": { "source": "github", "repo": "mkysel/personalized-skills" }
+    }
+  },
+  "enabledPlugins": {
+    "voice@personalized-skills": true,
+    "positioning@personalized-skills": true,
+    "write-article@personalized-skills": true
+  }
+}
