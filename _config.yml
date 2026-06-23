@@ -89,6 +89,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
+# Coding-challenge solutions live in their own collection so the blog harness
+# (homepage, pagination, feed, archive) ignores them, while each still renders
+# at its original /:slug/ URL. The curated index pages under /codility-solutions
+# and /hackerrank-solutions link to these by their permalinks.
+collections:
+  challenges:
+    output: true
+    permalink: /:path/
+
 include: ['_pages']
 
 paginate: 6
