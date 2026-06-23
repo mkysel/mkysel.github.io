@@ -1,41 +1,33 @@
 ---
-title: "Elevating Your Tech Journey: Unleashing Potential Through Digital Nomad Software Engineering Mentorship"
+title: "Mentoring Software Engineers While Living on the Road"
 date: "2023-08-15"
 categories: 
   - "digital nomad"
   - "mentorship"
-excerpt: In the ever-evolving landscape of software engineering, the digital nomad lifestyle has emerged as an exciting path for those seeking freedom, flexibility, and personal growth. As a passionate software engineer who has embraced this nomadic journey, I am thrilled to extend a helping hand to aspiring developers on their own quests for excellence.
+excerpt: I'm a software engineer and a digital nomad. I write code from wherever I happen to be, and I mentor other engineers who want to do the same. This post is about what that mentorship actually looks like.
 ---
 
-## Introduction
-In the ever-evolving landscape of software engineering, the digital nomad lifestyle has emerged as an exciting path for those seeking freedom, flexibility, and personal growth.
-As a passionate software engineer who has embraced this nomadic journey, I am thrilled to extend a helping hand to aspiring developers on their own quests for excellence.
-This blog post delves into the transformative power of digital nomad software engineering mentorship, highlighting the unique offerings I bring to the community.
+I'm a software engineer and a digital nomad.
+I write code from wherever I happen to be, and I mentor other engineers who want to do the same.
+This post is about what that mentorship actually looks like.
 
-## Guidance Tailored for the Nomadic Spirit
-Having embarked on my own digital nomad adventure, I intimately understand the challenges and triumphs of maintaining a coding rhythm amidst changing landscapes.
-Through personalized mentorship, I provide insights that resonate with the nomadic spirit – guidance that spans time zones, adapts to varying work environments, and celebrates the exhilarating fusion of cultures and technology.
+## What I can help with
+I've kept a real engineering job while moving between time zones and bad WiFi, so I know where this breaks down.
+Mentoring sessions usually cover one of a few things:
 
-## Mastering the Balancing Act
-Digital nomads are exceptional multitaskers, seamlessly blending work and exploration.
-Drawing from my experiences, I help mentees strike the delicate balance between delivering high-quality code and savoring the world around them.
-Together, we will navigate the art of time management, task prioritization, and crafting innovative solutions – all while embracing the freedom of the nomadic lifestyle.
+- **Staying productive while moving.** Time zones, unreliable connectivity, and the discipline of shipping when your day job is in another country. The hard part isn't the travel; it's keeping output steady when nothing about your setup is.
+- **The engineering work itself.** Algorithm and system design, working through a problem you're stuck on, or a code review of something real you're building.
+- **Career questions.** What to learn next, how to read the job market, whether the role you're in is the one you should stay in.
 
-## Practical Technical Expertise
-In the realm of software engineering, knowledge is key.
-Drawing from my expertise, I provide hands-on guidance, assisting mentees in algorithm design, tackling complex challenges, and staying attuned to industry trends.
+I don't do generic pep talks. Bring a concrete problem and we'll work on it.
 
-## A Journey That is My Own
-Embracing the exhilarating digital nomad lifestyle, I'm on a mission to explore every nook and cranny of our incredible world.
-Join me on an extraordinary journey of wanderlust and discovery as I strive to traverse every corner of our globe.
-Follow our adventure-packed escapades, cultural immersions, and unconventional lifestyle on [ElTruckito.com](eltruckito.com), where the thrill of exploration meets the awe-inspiring landscapes of our planet.
+## Why take advice from me
+I do this for real, not in theory.
+Over three years and ~60,000 miles we drove the entire Pan-American Highway, from Ushuaia at the bottom of Argentina to Tuktoyaktuk on the Arctic coast of Canada — the whole length of two continents.
+The whole time I was the maintainer of [SecureDNA](https://securedna.org/).
+So when I say you can hold a serious engineering job from a truck with bad WiFi, I've done exactly that.
+You can follow the travel side at [ElTruckito.com](https://eltruckito.com).
 
-## What to do Next?
-Embracing the digital nomad lifestyle while pursuing a career in software engineering is a remarkable journey.
-As a mentor, I am honored to offer my expertise, experiences, and unwavering support to a community of aspiring developers who share this vision.
-Through personalized guidance, a focus on practicality, and a commitment to nurturing both technical and personal growth, I am dedicated to helping digital nomads thrive as they code their way across the globe.
-Together, we embark on a transformative partnership that amplifies potential, sparks innovation, and paves the way for a new era of tech-savvy nomads.
-
-Take the next step by booking a mentorship session with me today!
-Let's collaborate, conquer coding challenges, and craft innovative solutions together.
-Your adventure in tech awaits – book your session now at [ADPList.org](https://adplist.org/mentors/martin-kysel) and let's embark on this exciting journey of growth and discovery!
+## Booking a session
+If any of this is useful to you, book a session with me on [ADPList.org](https://adplist.org/mentors/martin-kysel).
+Tell me what you're working on beforehand so we don't spend the call figuring out what to talk about.
