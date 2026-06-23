@@ -5,130 +5,84 @@ date: "2014-08-01"
 permalink: /coding-challenges/
 ---
 
-I worked through every one of these by hand, the slow way, before there was a model that would hand me the answer. That was the point. You do not learn an algorithm by reading its solution; you learn it by getting it wrong a few times first.
+<style>
+.cols ul { padding-left: 1.2em; margin-top: 0.3em; }
+.cols li { break-inside: avoid; }
+.cols-3 ul { columns: 3 12em; column-gap: 2em; }
+.cols-2 ul { columns: 2 18em; column-gap: 2em; }
+</style>
 
-Solving these sharpens your mind. Letting an LLM do it for you rots your brain. I [wrote down where I draw that line](https://github.com/mkysel/personalized-skills/blob/main/plugins/voice/skills/voice/SKILL.md). The solutions are below, split between Codility and HackerRank. Treat them as an answer key, not a shortcut.
+I worked through every one of these by hand, the slow way, before there was a model that would hand me the answer. That was the point. You do not learn an algorithm by reading its solution; you learn it by getting it wrong a few times first. Even now, with an LLM a keystroke away, knowing how to solve these yourself still matters.
+
+The solutions are split between Codility and HackerRank.
 
 ## Codility
 
 Solutions to the codility.com problem sets. The lessons are [here](https://codility.com/programmers/lessons/ "Codility Lessons").
 
-### 1) Time Complexity
+<div class="cols cols-3" markdown="1">
 
-- [TapeEquilibrium](/codility-tape-equilibrium-solution/ "Codility ‘Tape Equilibrium’ Solution") \[painless\]✓  
-    
-- [FrogJmp](/codility-frogjmp-solution/ "Codility ‘FrogJmp’ Solution") \[painless\]✓
-- [PermMissingElem](/codility-permmissingelem-solution/ "Codility ‘PermMissingElem’ Solution") \[painless\]✓
-
-### 2) Counting Elements
-
-- [PermCheck](/codility-permcheck-solution/ "Codility ‘PermCheck’ Solution") \[painless\]✓
-- [FrogRiverOne](/codility-frogriverone-solution/ "Codility ‘FrogRiverOne’ Solution") \[painless\]✓
-- [MaxCounters](/codility-maxcounters-solution/ "Codility ‘MaxCounters’ Solution") \[respectable\]✓
-- [MissingInteger](/codility-missinginteger-solution/ "Codility ‘MissingInteger’ Solution") \[respectable\]✓
-
-### 3) Prefix Sums
-
-- [PassingCars](/codility-passingcars-solution/ "Codility ‘PassingCars’ Solution") \[painless\]✓
-- [GenomicRangeQuery](/codility-genomicrangequery-solution/ "Codility ‘GenomicRangeQuery’ Solution") \[respectable\]✓
-- [MinAvgTwoSlice](/codility-minavgtwoslice-solution/ "Codility ‘MinAvgTwoSlice’ Solution") \[respectable\]✓
-- [CountDiv](/codility-countdiv-solution/ "Codility ‘CountDiv’ Solution") \[respectable\]✓
-
-### 4) Sorting
-
-- [Triangle](/codility-triangle-solution/ "Codility ‘Triangle’ Solution") \[painless\]✓
-- [Distinct](/codility-distinct-solution/ "Codility ‘Distinct’ Solution") \[painless\]✓
-- [MaxProductOfThree](/codility-maxproductofthree-solution/ "Codility ‘MaxProductOfThree’ Solution") \[painless\]✓
+- [TapeEquilibrium](/codility-tape-equilibrium-solution/) \[painless\]✓
+- [FrogJmp](/codility-frogjmp-solution/) \[painless\]✓
+- [PermMissingElem](/codility-permmissingelem-solution/) \[painless\]✓
+- [PermCheck](/codility-permcheck-solution/) \[painless\]✓
+- [FrogRiverOne](/codility-frogriverone-solution/) \[painless\]✓
+- [MaxCounters](/codility-maxcounters-solution/) \[respectable\]✓
+- [MissingInteger](/codility-missinginteger-solution/) \[respectable\]✓
+- [PassingCars](/codility-passingcars-solution/) \[painless\]✓
+- [GenomicRangeQuery](/codility-genomicrangequery-solution/) \[respectable\]✓
+- [MinAvgTwoSlice](/codility-minavgtwoslice-solution/) \[respectable\]✓
+- [CountDiv](/codility-countdiv-solution/) \[respectable\]✓
+- [Triangle](/codility-triangle-solution/) \[painless\]✓
+- [Distinct](/codility-distinct-solution/) \[painless\]✓
+- [MaxProductOfThree](/codility-maxproductofthree-solution/) \[painless\]✓
 - [NumberOfDiscIntersections](/codility-number-of-disc-intersections-2010-beta-solution/) \[ambitious\]✗
-
-### 5) Stacks and Queues
-
-- [Brackets](/codility-brackets-solution/ "Codility ‘Brackets’ Solution") \[painless\]✓
-- [Nesting](/codility-nesting-solution/ "Codility ‘Nesting’ Solution") \[painless\]✓
-- [StoneWall](/codility-stonewall-solution/ "Codility ‘StoneWall’ Solution") \[respectable\]✓
-- [Fish](/codility-fish-solution/ "Codility ‘Fish’ Solution") \[respectable\]✓
-
-### 6) Leader
-
-- [Dominator](/codility-dominator-solution/ "Codility ‘Dominator’ Solution") \[painless\]✓
-- [EquiLeader](/codility-equileader-solution/ "Codility ‘EquiLeader’ Solution") \[painless\]✓
-
-### 7) Maximum Slice Problem
-
-- [MaxProfit](/codility-maxprofit-solution/ "Codility ‘MaxProfit’ Solution") \[painless\]✓
-- [MaxSliceSum](/codility-maxslicesum-solution-2/ "Codility ‘MaxSliceSum’ Solution") \[painless\]✓
-- [MaxDoubleSliceSum](/codility-maxdoubleslicesum-solution/ "Codility ‘MaxDoubleSliceSum’ Solution") \[respectable\]✓
-
-### 8) Prime and composite numbers
-
-- [MinPerimeterRectangle](/codility-minperimeterrectangle-solution/ "Min Perimeter Rectangle") \[painless\]✓
-- [CountFactors](/codility-count-factors-solution/ "Codility 'Count Factors' Solution") \[painless\]✓
-- [Peaks](/codility-peaks-solution/%20 "Codility 'Peaks' Solution") \[respectable\]✓
-- Flags \[ambitious\]✗
-
-### 9) Sieve or Eratosthenes
-
-- [CountSemiprimes \[painless\]✓](/codility-countsemiprimes-solution/ "Codility ‘CountSemiprimes’ Solution")
-- [CountNonDivisible](/codility-countnondivisible-solution/ "Codility ‘CountNonDivisible’ Solution") \[respectable\]✓
-
-### 10) Euclidean Algorithm
-
-- [ChocolatesByNumbers](/codility-chocolatesbynumbers-solution/ "Codility ‘ChocolatesByNumbers’ Solution") \[painless\]✓
-- [CommonPrimeDivisors](/codility-commonprimedivisors-solution/ "Codility ‘CommonPrimeDivisors’ Solution") \[respectable\]✓
-
-### 11) Fibonacci Numbers
-
-- [FibFrog](/codility-fibfrog-solution/ "Codility ‘FibFrog’ Solution") \[respectable\]✓
-- [Ladder](/codility-ladder-solution/ "Codility ‘Ladder’ Solution") \[respectable\]✓
-
-### 12) Binary Search
-
-- [MinMaxDivision](/codility-minmaxdivision-solution/ "Codility ‘MinMaxDivision’ Solution") \[respectable\]✓
-- [NailingPlanks](/codility-nailingplanks-solution/ "Codility ‘NailingPlanks’ Solution") \[respectable\]✓
-
-### 13) Caterpillar method
-
-- [AbsDistinct](/codility-absdistinct-solution/ "Codility ‘AbsDistinct’ Solution") \[painless\]✓
-- [CountDistinctSlices](/codility-countdistinctslices-solution/ "Codility ‘CountDistinctSlices’ Solution") \[respectable\]✓
-- [CountTriangles](/codility-counttriangles-solution/ "Codility ‘CountTriangles’ Solution") \[respectable\]✓
-- [MinAbsSumOfTwo](/codility-minabssumoftwo-solution/ "Codility ‘MinAbsSumOfTwo’ Solution") \[ambitious\]✓
-
-### 14) Greedy algorithms
-
-- [TieRopes \[painless\]✓](/codility-tieropes-solution/ "Codility ‘TieRopes’ Solution")
-- [MaxNonoverlappingSegments](/codility-max-nonoverlapping-segments-solution/ "Codility ‘Max Nonoverlapping Segments’ Solution") \[painless\]✓
-
-### 15) Dynamic Programming
-
-- [NumberSolitaire](/codility-numbersolitaire-solution/ "Codility ‘NumberSolitaire’ Solution") \[respectable\]✓
-- MinAbsSum \[ambitious\]✗
-
-### 16) Future Training
-
-- [BinaryGap](/codility-binarygap-solution/ "Codility ‘BinaryGap’ Solution") \[painless\]✓
-- [StrSymmetryPoint](/codility-str-symmetry-point-solution/ "Codility ‘Str Symmetry Point’ Solution") \[painless\]✓
-- [OddOccurencesInArray](/codility-oddoccurrencesinarray-solution/ "Codility ‘OddOccurrencesInArray’ Solution") \[painless\]✓
-- [TreeHeight](/codility-treeheight-solution/ "Codility ‘TreeHeight’ Solution") \[painless\]✓
+- [Brackets](/codility-brackets-solution/) \[painless\]✓
+- [Nesting](/codility-nesting-solution/) \[painless\]✓
+- [StoneWall](/codility-stonewall-solution/) \[respectable\]✓
+- [Fish](/codility-fish-solution/) \[respectable\]✓
+- [Dominator](/codility-dominator-solution/) \[painless\]✓
+- [EquiLeader](/codility-equileader-solution/) \[painless\]✓
+- [MaxProfit](/codility-maxprofit-solution/) \[painless\]✓
+- [MaxSliceSum](/codility-maxslicesum-solution-2/) \[painless\]✓
+- [MaxDoubleSliceSum](/codility-maxdoubleslicesum-solution/) \[respectable\]✓
+- [MinPerimeterRectangle](/codility-minperimeterrectangle-solution/) \[painless\]✓
+- [CountFactors](/codility-count-factors-solution/) \[painless\]✓
+- [Peaks](/codility-peaks-solution/) \[respectable\]✓
+- [CountSemiprimes](/codility-countsemiprimes-solution/) \[painless\]✓
+- [CountNonDivisible](/codility-countnondivisible-solution/) \[respectable\]✓
+- [ChocolatesByNumbers](/codility-chocolatesbynumbers-solution/) \[painless\]✓
+- [CommonPrimeDivisors](/codility-commonprimedivisors-solution/) \[respectable\]✓
+- [FibFrog](/codility-fibfrog-solution/) \[respectable\]✓
+- [Ladder](/codility-ladder-solution/) \[respectable\]✓
+- [MinMaxDivision](/codility-minmaxdivision-solution/) \[respectable\]✓
+- [NailingPlanks](/codility-nailingplanks-solution/) \[respectable\]✓
+- [AbsDistinct](/codility-absdistinct-solution/) \[painless\]✓
+- [CountDistinctSlices](/codility-countdistinctslices-solution/) \[respectable\]✓
+- [CountTriangles](/codility-counttriangles-solution/) \[respectable\]✓
+- [MinAbsSumOfTwo](/codility-minabssumoftwo-solution/) \[ambitious\]✓
+- [TieRopes](/codility-tieropes-solution/) \[painless\]✓
+- [MaxNonoverlappingSegments](/codility-max-nonoverlapping-segments-solution/) \[painless\]✓
+- [NumberSolitaire](/codility-numbersolitaire-solution/) \[respectable\]✓
+- [BinaryGap](/codility-binarygap-solution/) \[painless\]✓
+- [StrSymmetryPoint](/codility-str-symmetry-point-solution/) \[painless\]✓
+- [OddOccurrencesInArray](/codility-oddoccurrencesinarray-solution/) \[painless\]✓
+- [TreeHeight](/codility-treeheight-solution/) \[painless\]✓
 - [CyclicRotation](/codility-cyclicrotation-solution/) \[painless\]✓
-- [ArrayInversionCount](/codility-arrayinversioncount-solution/ "Codility ‘ArrayInversionCount’ Solution") \[respectable\]✓
+- [ArrayInversionCount](/codility-arrayinversioncount-solution/) \[respectable\]✓
+- [SqlSegmentsSum (Kalium 2015)](/codility-sqlsegmentssum-kalium-2015-solution/)
+- [TrekAndSwim (Argon 2015)](/codility-trekandswim-2015-argon-solution/)
+- [WireBurnouts (Psi 2012)](/codility-wireburnouts-2012-psi-solution/)
+- [CannonBalls (Chi 2012)](/codility-cannonballs-2012-chi-solution/)
+- [PrefixSet (Alpha 2010)](/codility-prefixset-2010-alpha-solution/)
 
-### X) Challenges
-
-- [Kalium 2015 - SqlSegmentsSum](/codility-sqlsegmentssum-kalium-2015-solution/)
-- [Argon 2015 - TrekAndSwim](/codility-trekandswim-2015-argon-solution/)
-- Boron 2013 - Flags
-- [Psi 2012 - Wire Burnouts](/codility-wireburnouts-2012-psi-solution/ "Codility ‘WireBurnouts’ 2012 Psi Solution")
-- [Chi 2012 - Cannon Balls](/codility-cannonballs-2012-chi-solution/)
-- [Sigma 2012 - StoneWall](/codility-stonewall-solution/ "Codility ‘StoneWall’ Solution")
-- Delta 2011 - MinAbsSum
-- [Beta 2010 - NumberOfDiscIntersections](/codility-number-of-disc-intersections-2010-beta-solution/)
-- [Alpha 2010 - PrefixSet](/codility-prefixset-2010-alpha-solution/ "Codility ‘PrefixSet’ 2010 Alpha Solution")
-
-Per the [Codility Terms of Service](https://codility.com/terms-of-service-for-programmers), sharing training solutions and solutions to past challenges is allowed (clause 8.2: the confidentiality clause "does not apply to: Training section of Codility service, Training Tasks and Past Challenges, their solutions and assessment results").
+</div>
 
 ## HackerRank
 
 Solutions to previous HackerRank challenges. Most are in Python 2; some are in C++, [Rust](https://www.rust-lang.org/en-US/) and [GoLang](https://golang.org/). The time constraints are forgiving, so the page is a good start if you are working through these yourself. My public HackerRank profile is [here](https://www.hackerrank.com/vegichan).
+
+<div class="cols cols-2" markdown="1">
 
 - [HackerRank ‘A Very Big Sum’ Solution](/hackerrank-a-very-big-sum-solution/)
 - [HackerRank ‘ACM ICPC Team’ Solution](/hackerrank-acm-icpc-team-solution/)
@@ -254,3 +208,5 @@ Solutions to previous HackerRank challenges. Most are in Python 2; some are in C
 - [HackerRank ‘Utopian Tree’ Solution](/hackerrank-utopiantree-solution/)
 - [HackerRank ‘Waiter’ Solution](/hackerrank-waiter-solution/)
 - [HackerRank ‘Weighted Uniform Strings’ Solution](/hackerrank-weighted-uniform-strings-solution/)
+
+</div>
